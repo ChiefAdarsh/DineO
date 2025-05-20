@@ -12,7 +12,7 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useThemeColors } from "./constants/colors";
+import { useThemeColors } from "../constants/colors";
 
 // Define types
 type Preference = string;

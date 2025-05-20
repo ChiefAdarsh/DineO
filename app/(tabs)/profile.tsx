@@ -1,4 +1,5 @@
 import { MaterialIcons } from '@expo/vector-icons';
+import { router } from 'expo-router';
 import React, { useMemo, useState } from 'react';
 import {
   Alert,
@@ -10,7 +11,7 @@ import {
   View
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useThemeColors } from './constants/colors';
+import { useThemeColors } from "../constants/colors";
 
 // Types for dietary preferences and allergies
 type DietaryPreference = {
@@ -112,7 +113,7 @@ export default function Profile() {
           style: "destructive",
           onPress: () => {
             // In a real app, implement actual logout logic here
-            Alert.alert("Logged Out", "You have been logged out successfully");
+            router.replace('/login');
           }
         }
       ]

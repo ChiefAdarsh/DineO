@@ -1,7 +1,7 @@
 import { MaterialIcons } from "@expo/vector-icons";
 import React, { useMemo, useState } from "react";
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { useThemeColors } from "./constants/colors";
+import { useThemeColors } from "../constants/colors";
 
 
 type Restaurant = {
@@ -19,7 +19,7 @@ const mockRestaurants: Restaurant[] = [
   {
     id: '1',
     name: 'Green Garden Vegan',
-    image: require('../assets/restaurants/vegan.jpg'),
+    image: require('../../assets/restaurants/vegan.jpg'),
     cuisine: 'Vegan',
     rating: 4.5,
     dietaryOptions: ['Vegan', 'Gluten-Free', 'Organic'],
@@ -28,7 +28,7 @@ const mockRestaurants: Restaurant[] = [
   {
     id: '2',
     name: 'Spice Delight',
-    image: require('../assets/restaurants/indian.jpg'),
+    image: require('../../assets/restaurants/indian.jpg'),
     cuisine: 'Indian',
     rating: 4.7,
     dietaryOptions: ['Vegetarian Options', 'Halal'],
@@ -37,7 +37,7 @@ const mockRestaurants: Restaurant[] = [
   {
     id: '3',
     name: 'Seaside Seafood',
-    image: require('../assets/restaurants/seafood.jpg'),
+    image: require('../../assets/restaurants/seafood.jpg'),
     cuisine: 'Seafood',
     rating: 4.3,
     dietaryOptions: ['Pescatarian', 'Gluten-Free Options'],
@@ -46,7 +46,7 @@ const mockRestaurants: Restaurant[] = [
   {
     id: '4',
     name: 'Farm to Table',
-    image: require('../assets/restaurants/farm.jpg'),
+    image: require('../../assets/restaurants/farm.jpg'),
     cuisine: 'American',
     rating: 4.6,
     dietaryOptions: ['Organic', 'Locally Sourced', 'Keto-Friendly'],

@@ -12,14 +12,14 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useThemeColors } from "./constants/colors";
+import { useThemeColors } from "../constants/colors";
 
 // Mock restaurant data
 const allRestaurants = [
   {
     id: '1',
     name: 'Green Garden Vegan',
-    image: require('../assets/restaurants/vegan.jpg'),
+    image: require('../../assets/restaurants/vegan.jpg'),
     cuisine: 'Vegan',
     rating: 4.5,
     price: '$$',
@@ -29,7 +29,7 @@ const allRestaurants = [
   {
     id: '2',
     name: 'Spice Delight',
-    image: require('../assets/restaurants/indian.jpg'),
+    image: require('../../assets/restaurants/indian.jpg'),
     cuisine: 'Indian',
     rating: 4.7,
     price: '$$',
@@ -39,7 +39,7 @@ const allRestaurants = [
   {
     id: '3',
     name: 'Seaside Seafood',
-    image: require('../assets/restaurants/seafood.jpg'),
+    image: require('../../assets/restaurants/seafood.jpg'),
     cuisine: 'Seafood',
     rating: 4.3,
     price: '$$$',
@@ -49,7 +49,7 @@ const allRestaurants = [
   {
     id: '4',
     name: 'Farm to Table',
-    image: require('../assets/restaurants/farm.jpg'),
+    image: require('../../assets/restaurants/farm.jpg'),
     cuisine: 'American',
     rating: 4.6,
     price: '$$$',
@@ -59,7 +59,7 @@ const allRestaurants = [
   {
     id: '5',
     name: 'Mamma Mia Pizza',
-    image: require('../assets/restaurants/italian.jpg'),
+    image: require('../../assets/restaurants/italian.jpg'),
     cuisine: 'Italian',
     rating: 4.2,
     price: '$$',
@@ -69,7 +69,7 @@ const allRestaurants = [
   {
     id: '6',
     name: 'Sushi Heaven',
-    image: require('../assets/restaurants/sushi.jpg'),
+    image: require('../../assets/restaurants/sushi.jpg'),
     cuisine: 'Japanese',
     rating: 4.8,
     price: '$$$',
@@ -249,7 +249,7 @@ export default function Search() {
               <Image 
                 source={restaurant.image} 
                 style={styles.restaurantImage}
-                defaultSource={require('../assets/placeholder.png')}
+                defaultSource={require('../../assets/placeholder.png')}
               />
               <View style={styles.restaurantInfo}>
                 <Text style={[styles.restaurantName, { color: colors.text }]}>{restaurant.name}</Text>
