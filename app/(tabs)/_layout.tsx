@@ -12,8 +12,8 @@ export default function TabsLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: colors.primary,
-        tabBarInactiveTintColor: colorScheme === 'dark' ? "#999" : "#777",
-        tabBarStyle: { 
+        tabBarInactiveTintColor: colorScheme === "dark" ? "#999" : "#777",
+        tabBarStyle: {
           backgroundColor: colors.card,
         },
         headerShown: false,
@@ -67,4 +67,4 @@ export default function TabsLayout() {
       />
     </Tabs>
   );
-} 
+}
