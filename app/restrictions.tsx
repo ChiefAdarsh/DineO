@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useThemeColors } from "./constants/colors";
+import { useAuth } from "./context/AuthContext";
 
 const { width } = Dimensions.get("window");
 
@@ -30,7 +31,7 @@ const dietaryOptions = [
 export default function DietaryRestrictionsScreen() {
   const colors = useThemeColors();
   const styles = useMemo(() => createStyles(colors), [colors]);
-
+  const { user } = useAuth();
   const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
 
   const toggleOption = (option: string) => {
@@ -41,9 +42,31 @@ export default function DietaryRestrictionsScreen() {
     );
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     console.log("Selected dietary restrictions:", selectedOptions);
-    // Save to backend or navigate
+
+    try {
+      const response = await fetch(
+        `${process.env.EXPO_PUBLIC_API_URL}/users/${user?.userId}`, // Make sure `user` is available in scope
+        {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            dietary_preferences: selectedOptions,
+          }),
+        }
+      );
+
+      if (response.ok) {
+        const updatedUser = await response.json();
+        console.log("User updated:", updatedUser);
+        router.push("/cravings"); // or wherever you want to go next
+      } else {
+        console.error("Failed to update dietary preferences:", response.status);
+      }
+    } catch (err) {
+      console.warn("Failed to sync dietary preferences to backend:", err);
+    }
   };
 
   return (

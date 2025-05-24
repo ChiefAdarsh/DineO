@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useThemeColors } from "./constants/colors";
+import { useAuth } from "./context/AuthContext";
 
 const { width } = Dimensions.get("window");
 
@@ -31,6 +32,7 @@ const cravingOptions = [
 
 export default function CravingsScreen() {
   const colors = useThemeColors();
+  const { user } = useAuth();
   const styles = useMemo(() => createStyles(colors), [colors]);
   const [selectedCravings, setSelectedCravings] = useState<string[]>([]);
 
@@ -42,10 +44,31 @@ export default function CravingsScreen() {
     );
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     console.log("Selected cravings:", selectedCravings);
-    router.replace("/(tabs)");
-    // Submit to backend or move to next screen
+
+    try {
+      const response = await fetch(
+        `${process.env.EXPO_PUBLIC_API_URL}/users/${user?.userId}`,
+        {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            cravings: selectedCravings,
+          }),
+        }
+      );
+
+      if (response.ok) {
+        const updatedUser = await response.json();
+        console.log("User updated:", updatedUser);
+        router.replace("/(tabs)"); // or wherever you'd like to route after submission
+      } else {
+        console.error("Failed to update cravings:", response.status);
+      }
+    } catch (err) {
+      console.warn("Failed to sync cravings to backend:", err);
+    }
   };
 
   return (

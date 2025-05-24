@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useThemeColors } from "./constants/colors";
+import { useAuth } from "./context/AuthContext";
 
 const { width } = Dimensions.get("window");
 
@@ -30,6 +31,7 @@ export default function AllergySelectionScreen() {
   const colors = useThemeColors();
   const styles = useMemo(() => createStyles(colors), [colors]);
   const [selectedAllergies, setSelectedAllergies] = useState<string[]>([]);
+  const { user } = useAuth();
 
   const toggleAllergy = (allergy: string) => {
     setSelectedAllergies((prev) =>
@@ -39,9 +41,31 @@ export default function AllergySelectionScreen() {
     );
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     console.log("Selected allergies:", selectedAllergies);
-    // Save or continue to next step
+    try {
+      const response = await fetch(
+        `${process.env.EXPO_PUBLIC_API_URL}/users/${user?.userId}`,
+        {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            allergies: selectedAllergies,
+          }),
+        }
+      );
+
+      if (response.ok) {
+        const user = await response.json();
+        console.log("User:", user);
+      } else {
+        console.error("Failed to fetch user:", response.status);
+      }
+      console.log("Allergies successfully updated!");
+      router.push("/restrictions"); // Optional redirect after save
+    } catch (err) {
+      console.warn("Failed to sync allergies to backend:", err);
+    }
   };
 
   return (
