@@ -1,4 +1,14 @@
+// AddItemScreen.tsx
+
+import {
+  PutObjectCommand,
+  PutObjectCommandInput,
+  S3Client,
+  S3ClientConfig,
+} from "@aws-sdk/client-s3";
 import { MaterialIcons } from "@expo/vector-icons";
+import * as base64 from "base64-js";
+import * as ExpoFileSystem from "expo-file-system";
 import * as ImagePicker from "expo-image-picker";
 import { router } from "expo-router";
 import React, { useEffect, useMemo, useState } from "react";
@@ -12,9 +22,23 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import "react-native-get-random-values";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useThemeColors } from "../constants/colors";
 import { useAuth } from "../context/AuthContext";
+
+const bucketName = "dineoutbuddy";
+const bucketRegion = "us-east-1";
+const accessKeyId = process.env.EXPO_PUBLIC_AWS_ACCESS_KEY_ID;
+const secretAccessKey = process.env.EXPO_PUBLIC_AWS_SECRET_ACCESS_KEY;
+
+export const s3Client = new S3Client({
+  region: bucketRegion,
+  credentials: {
+    accessKeyId: accessKeyId,
+    secretAccessKey: secretAccessKey,
+  },
+} as S3ClientConfig);
 
 type SelectableItem = {
   name: string;
@@ -171,26 +195,27 @@ export default function Profile() {
     localUri: string,
     filename: string,
     mimeType: string
-  ) => {
+  ): Promise<string | null> => {
     try {
-      const presignRes = await fetch(
-        `${process.env.EXPO_PUBLIC_API_URL}/s3/presign?filename=${filename}&type=${mimeType}`
-      );
-      const { signedUrl, fileUrl } = await presignRes.json();
-
-      const response = await fetch(localUri);
-      const blob = await response.blob();
-
-      const s3Res = await fetch(signedUrl, {
-        method: "PUT",
-        headers: {
-          "Content-Type": mimeType,
-        },
-        body: blob,
+      const fileData = await ExpoFileSystem.readAsStringAsync(localUri, {
+        encoding: ExpoFileSystem.EncodingType.Base64,
       });
 
-      if (!s3Res.ok) throw new Error("S3 upload failed");
-      return fileUrl;
+      const binaryData = base64.toByteArray(fileData);
+
+      const params: PutObjectCommandInput = {
+        Bucket: bucketName,
+        Key: `profile-pictures/${filename}`,
+        Body: binaryData,
+        ContentType: mimeType,
+      };
+
+      const command = new PutObjectCommand(params);
+      const data = await s3Client.send(command);
+
+      console.log("Image uploaded successfully", data);
+
+      return `https://${bucketName}.s3.us-east-1.amazonaws.com/profile-pictures/${filename}`;
     } catch (err) {
       console.error("S3 upload error:", err);
       return null;
@@ -272,6 +297,7 @@ export default function Profile() {
     if (!result.canceled && result.assets.length > 0) {
       const asset = result.assets[0];
       setLocalImageUri(asset.uri); // only save to state
+      setEditedPicture(asset.uri);
     }
   };
 
