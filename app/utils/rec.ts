@@ -17,34 +17,34 @@ interface Place {
   score?: number;
 }
 
-// interface Context {
-//   userDiet: string[];
-//   groupDiet: string[];
-//   userCuisine: string[];
-//   recentVisits: string[];
-//   homeLat: number;
-//   homeLng: number;
-//   radius: number;
-//   keyword: string;
-// }
+interface Context {
+  userDiet: string[];
+  groupDiet: string[];
+  userCuisine: string[];
+  recentVisits: string[];
+  homeLat: number;
+  homeLng: number;
+  radius: number;
+  keyword: string;
+}
 
-// function getDistanceKm(
-//   lat1: number,
-//   lon1: number,
-//   lat2: number,
-//   lon2: number
-// ): number {
-//   const R = 6371;
-//   const dLat = ((lat2 - lat1) * Math.PI) / 180;
-//   const dLon = ((lon2 - lon1) * Math.PI) / 180;
-//   const a =
-//     Math.sin(dLat / 2) ** 2 +
-//     Math.cos((lat1 * Math.PI) / 180) *
-//       Math.cos((lat2 * Math.PI) / 180) *
-//       Math.sin(dLon / 2) ** 2;
-//   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-//   return R * c;
-// }
+function getDistanceKm(
+  lat1: number,
+  lon1: number,
+  lat2: number,
+  lon2: number
+): number {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) ** 2;
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
 
 function normalizeAddress(address: string): string {
   if (typeof address !== 'string') return '';
@@ -65,8 +65,8 @@ function normalizeLabel(label: string): string {
   return label.toLowerCase().replace(/[^\w\s]/gi, '').replace(/\s+/g, ' ').trim();
 }
 
-// function deduplicatePlaces(places: Place[], thresholdKm = 0.1): Place[] {
-//   const seen = new Map<string, Place>();
+function deduplicatePlaces(places: Place[], thresholdKm = 0.1): Place[] {
+  const seen = new Map<string, Place>();
 
   for (const place of places) {
     const normAddr = normalizeAddress(place.address);
@@ -96,25 +96,25 @@ function normalizeLabel(label: string): string {
   return Array.from(seen.values());
 }
 
-// function scorePlace(place: Place, context: Context): Place {
-//   const { userDiet, groupDiet, userCuisine, recentVisits, homeLat, homeLng } =
-//     context;
-//   const label = place.label.toLowerCase();
-//   let score = 0;
+function scorePlace(place: Place, context: Context): Place {
+  const { userDiet, groupDiet, userCuisine, recentVisits, homeLat, homeLng } =
+    context;
+  const label = place.label.toLowerCase();
+  let score = 0;
 
-//   if (label.includes("halal") && userDiet.includes("halal")) score += 5;
-//   if (groupDiet.some((tag) => label.includes(tag))) score += 3;
-//   if (userCuisine.some((c) => label.includes(c))) score += 2;
-//   if (recentVisits.includes(label)) score -= 2;
+  if (label.includes("halal") && userDiet.includes("halal")) score += 5;
+  if (groupDiet.some((tag) => label.includes(tag))) score += 3;
+  if (userCuisine.some((c) => label.includes(c))) score += 2;
+  if (recentVisits.includes(label)) score -= 2;
 
-//   const dist = getDistanceKm(homeLat, homeLng, place.lat, place.lng);
-//   place.distance_km = parseFloat(dist.toFixed(2));
-//   if (dist <= 2) score += 2;
-//   else if (dist <= 5) score += 1;
+  const dist = getDistanceKm(homeLat, homeLng, place.lat, place.lng);
+  place.distance_km = parseFloat(dist.toFixed(2));
+  if (dist <= 2) score += 2;
+  else if (dist <= 5) score += 1;
 
-//   place.score = score;
-//   return place;
-// }
+  place.score = score;
+  return place;
+}
 
 async function fetchGooglePlaces(lat: number, lng: number, radius: number, keyword: string): Promise<Place[]> {
   const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json`;
@@ -231,17 +231,17 @@ export async function getRecommendations(context: Context): Promise<Place[]> {
 }
 
 // // Example test execution
-// (async () => {
-//   const context: Context = {
-//     userDiet: ["halal", "vegetarian"],
-//     groupDiet: ["halal", "gluten-free"],
-//     userCuisine: ["mediterranean", "indian"],
-//     recentVisits: ["madina halal grill"],
-//     homeLat: 32.9857,
-//     homeLng: -96.7501,
-//     radius: 5000,
-//     keyword: "halal",
-//   };
+(async () => {
+  const context: Context = {
+    userDiet: ["halal", "vegetarian"],
+    groupDiet: ["halal", "gluten-free"],
+    userCuisine: ["mediterranean", "indian"],
+    recentVisits: ["madina halal grill"],
+    homeLat: 32.9857,
+    homeLng: -96.7501,
+    radius: 5000,
+    keyword: "halal",
+  };
 
   const recommendations = await getRecommendations(context);
   // console.log('Top Recommendations (JSON):');
