@@ -1,0 +1,2453 @@
+[
+  {
+    "source": "google",
+    "label": "CHOPPED HALAL GRILL",
+    "address": "3000 Northside Blvd #500, Richardson",
+    "lat": 32.9934436,
+    "lng": -96.7502847,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9934436,
+          "lng": -96.7502847
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.99473187989273,
+            "lng": -96.74892722010728
+          },
+          "southwest": {
+            "lat": 32.99203222010728,
+            "lng": -96.75162687989273
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "CHOPPED HALAL GRILL",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3456,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112729991700142865150\">Irfan Ali</a>"
+          ],
+          "photo_reference": "AXQCQNRJaHeeIXq3kv8opNkllpTd6AIxdLbgMjs1bZ_hRuOBga2oUw_yghRosSfs27SBuSV-E7EKpazGA-Ib4dra89qCDQRY42bhyfvPLCA3n96uYVCVqGNuZnOmpb3Oy1holBN4y8njiWlvGqSzztv2v9Q2_hAV9gcKtncOez8T8poOkuQrFtJMjJBekEMkZddREBKbY9wtwj7S30xSC_DGFdmgG5yvFWIGO68ThAcnVfhby4A4wLKwabeTq_EHH-scA5NtgYLnUngrw2TvdxmqRC6Y4vGRhPSbs1lgQ7dpjBkQiYQ4eLIR85sFjuj2NmCKBGoaS41DkY654kLZXMLCq8Tx7EtbfHUlMnaFEHsKAd-F7RBpdtFvCnOD8pOxbapRbqCNad7yPhPo2Y7yHx3xcNL_BsSG4FirWwNn4uj4ntlNiO5VF6xEwX-GVCRhRoNA0Voms_H4R3h20hISiZ2jBbKMpvwAXuorTrlYsgW7YjwMtdTShjohCavShq-Rr_v1aNcJVR3PdL5mwzbWjXzaQ6OWAUpVoVStoyOu8UNRNu2WnYRrlaOr_laiyPSvSmHBodvybW1kfzt9pQ",
+          "width": 4608
+        }
+      ],
+      "place_id": "ChIJX8WyQwciTIYRsXn8aJaoVfA",
+      "plus_code": {
+        "compound_code": "X6VX+9V Richardson, Texas",
+        "global_code": "8645X6VX+9V"
+      },
+      "price_level": 2,
+      "rating": 4.4,
+      "reference": "ChIJX8WyQwciTIYRsXn8aJaoVfA",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 806,
+      "vicinity": "3000 Northside Blvd #500, Richardson"
+    },
+    "distance_km": 0.86,
+    "score": 10
+  },
+  {
+    "source": "google",
+    "label": "The Halal Guys",
+    "address": "746 Central Expy #120, Richardson",
+    "lat": 32.9426749,
+    "lng": -96.74355829999999,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9426749,
+          "lng": -96.74355829999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.94398522989272,
+            "lng": -96.74216832010727
+          },
+          "southwest": {
+            "lat": 32.94128557010728,
+            "lng": -96.74486797989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "The Halal Guys",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114585944616315822135\">Brandon Burnett</a>"
+          ],
+          "photo_reference": "AXQCQNSZ4HfXZm1Q0gOWPXmlzvfksrjJ4HQD_QAnhNw6KTzmr-mGsWgh1QQgJIdILOwBMHSoaqYeZRRqgtnQ1Wp9r7Wdcy4Z7SsLAljB42X5WiqoDLtqbGwbZGuH6QnWx3vGvYxkRJ1FMfHOvFrkdlYPV9f2pIVV5x8MZfS-azcIHmlcUwvwcz8Xnvw542f75z2DiJETNgQEZJUGAAw2ZP1JE3bMQhV1z7jnCP3Hrqf8UViqyNHwnlk080OT47EAiQXFLxm2Sq6Bpfk3iKFMbco0Eyqga0-DDeltDiSDr69IX6oW6-6lxSHxRwNWY1-KpdL5tmEp6ap6Y-yMa_Ue7kGI4TgCNgjV_Gn7lAioBcTkbDIc1sZe58pRTaD7XmoGAeBEiJ85h79Wq1deDVlolde4hggSwXwd_HkaM4Co9I7uODWGKswXcJBt_asgv8YyGG9newzZl__bOm6MXZXX1OoJ9ivw3JNfWzon2ixCdJ6Z7S8-Vyhx49h8uBA2YzrpDvSraveFXtf5WNgB06Be7uCw51vUGtIkkv3Id8TzlEH4QPImTS29SALAleBY8b6rXiZ_Z__af2L4",
+          "width": 3266
+        }
+      ],
+      "place_id": "ChIJzyUOsogfTIYRCEdTH_l2P9E",
+      "plus_code": {
+        "compound_code": "W7V4+3H Richardson, Texas",
+        "global_code": "8645W7V4+3H"
+      },
+      "price_level": 1,
+      "rating": 4,
+      "reference": "ChIJzyUOsogfTIYRCEdTH_l2P9E",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1750,
+      "vicinity": "746 Central Expy #120, Richardson"
+    },
+    "distance_km": 4.82,
+    "score": 9
+  },
+  {
+    "source": "google",
+    "label": "Wava Halal Grill",
+    "address": "804 West Shore Dr, Richardson",
+    "lat": 32.9622716,
+    "lng": -96.7476847,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9622716,
+          "lng": -96.7476847
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.96350052989271,
+            "lng": -96.74640842010729
+          },
+          "southwest": {
+            "lat": 32.96080087010727,
+            "lng": -96.74910807989274
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Wava Halal Grill",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1709,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/118381199487572288693\">Wava Halal Grill</a>"
+          ],
+          "photo_reference": "AXQCQNTLeV2qVm7PE8jnmyfRpVLWRgI4ptCaGkfayO91zrAPiMxaYFNsC1FDdmq_FYcFBPiUwGDKtXdNJ7BIs-aYbcctnaVEnIonES8jE8_7pboTjbrSwi71pulYC6KGfde2cJ_8X99h4ZVYLRdrIv9AtFBDNegOhD-z9LUFqh4TJ6e-sQuZUPyihWhL3F4CTr6uEfkd4CWVhymDCwIqni_dd6CmUMydijUICmlFQWRx_aKFfcmATNkw1QCh8Z1uG787PmQbmnqGSQXbqN0hFxPcsI8SkfDvl61J-DeGpVKXk-W6xDZO4x8",
+          "width": 2560
+        }
+      ],
+      "place_id": "ChIJc-aPhSgfTIYRjbWhgpafccs",
+      "plus_code": {
+        "compound_code": "X762+WW Richardson, Texas",
+        "global_code": "8645X762+WW"
+      },
+      "price_level": 1,
+      "rating": 4.6,
+      "reference": "ChIJc-aPhSgfTIYRjbWhgpafccs",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 422,
+      "vicinity": "804 West Shore Dr, Richardson"
+    },
+    "distance_km": 2.61,
+    "score": 9
+  },
+  {
+    "source": "google",
+    "label": "Abu Omar Halal - Richardson, TX",
+    "address": "800 E Arapaho Rd # 120, Richardson",
+    "lat": 32.9603086,
+    "lng": -96.7125265,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9603086,
+          "lng": -96.7125265
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.96172837989272,
+            "lng": -96.71118222010728
+          },
+          "southwest": {
+            "lat": 32.95902872010728,
+            "lng": -96.71388187989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Abu Omar Halal - Richardson, TX",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1537,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116779441687492043670\">Abu Omar Halal - Richardson, TX</a>"
+          ],
+          "photo_reference": "AXQCQNR6u7g1vnC_s8O1RK-xymEFLzEIhwpRLy1hC-us7RkcHXXmOvqbZ6OcH6Z-O1LQ77p_ICh8XS17VBSZijxzLsVdkzoY2uDDZOIFl8x5-LsQxv66h5T2bZTR7shI7LCz3C5wFq3cu0vwamDgkmOVy4krwbd1k4_vLlDtJNy-V01FtWpjIF9bEBpRGTjqEbK8J_hneGoDh6F9gYJ2jtYJcAnmH3rN98i_9eU_s9urx5nBoDsA8rvsOohKA7wz10EqecTAnwNWYz7Hd8_ERi86nXkDlNm47VthFartB757itY-GQPtRNM",
+          "width": 2305
+        }
+      ],
+      "place_id": "ChIJ_1EUrSkfTIYRopeIGpp77Dc",
+      "plus_code": {
+        "compound_code": "X76P+4X Richardson, Texas",
+        "global_code": "8645X76P+4X"
+      },
+      "price_level": 1,
+      "rating": 4.1,
+      "reference": "ChIJ_1EUrSkfTIYRopeIGpp77Dc",
+      "scope": "GOOGLE",
+      "types": [
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1319,
+      "vicinity": "800 E Arapaho Rd # 120, Richardson"
+    },
+    "distance_km": 4.5,
+    "score": 9
+  },
+  {
+    "source": "amazon",
+    "label": "The Halal Guys",
+    "address": "746 S Central Expy Richardson Texas 75080-7402 USA",
+    "lat": 32.94281,
+    "lng": -96.74342,
+    "misc": {
+      "AddressNumber": "746",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.74342,
+          32.94281
+        ]
+      },
+      "Interpolated": false,
+      "Label": "The Halal Guys, 746 S Central Expy, Richardson, TX 75080-7402, United States",
+      "Municipality": "Richardson",
+      "PostalCode": "75080-7402",
+      "Region": "Texas",
+      "Street": "S Central Expy",
+      "SubRegion": "Dallas",
+      "SupplementalCategories": [
+        "Fast Food"
+      ],
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 4.81,
+    "score": 9
+  },
+  {
+    "source": "google",
+    "label": "Milano halal Pizza",
+    "address": "224 E Spring Valley Rd, Richardson",
+    "lat": 32.9396847,
+    "lng": -96.734082,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9396847,
+          "lng": -96.734082
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.94112282989272,
+            "lng": -96.73273952010729
+          },
+          "southwest": {
+            "lat": 32.93842317010728,
+            "lng": -96.73543917989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Milano halal Pizza",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103804760104323728929\">Pavan Dave</a>"
+          ],
+          "photo_reference": "AXQCQNQFGF8P_gi78fRtghhI-cOrAwyOjR06NrBiAIIscakqSrFqu5bBnOzJuCMya_MvvEKpGeiBu1O3KFG2vQZYaAPOv1RAfyvreb7dFZsccB_BF9fOMLmgDTTOI3EgXNR5gR_IEB_Bgu3gwMZaPx498i-QSceqRrYZLmgVoOzRVASJw7CV8lPW_3uOCdJ9ROQFnErDR5HEuXPxRhwZAiiH4MJv9BDuerfQsOwK5o96b9gs90Qo8mCUb5J5YBywL7tx4wd8-f5pgithFSinWNVPYGBUR3X1UHEh1M8eOMlvYsLt7tfjYh_Xo-Oaq8yNULjoTcBG6hC_1RkdoQW3tVUKtYBSgYeDhlVRYVfFniQnSYn393Oimrwwq7_NxX4HXdc9_cWt0sd67TY_df18_GK-3clUJsv6p7X8ZUoR0twFIg4HKHYx495O7Ar5_tnJde5gqvoDfDUkPAiQJW-knyU1U7MOt7UJc4bTi5DP9sQSi4xBblG0uRfLJ6hKI3oCZ8cIyVp5PRgPB50fRys7yh8IzJJfNxhT2ocQG1TXUyKt3bcsUmvwT8-ArYETyHzUdJddBFCSoA",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJ3xCNMpwfTIYRmmhbnpoH7QM",
+      "plus_code": {
+        "compound_code": "W7Q8+V9 Richardson, Texas",
+        "global_code": "8645W7Q8+V9"
+      },
+      "price_level": 1,
+      "rating": 4.4,
+      "reference": "ChIJ3xCNMpwfTIYRmmhbnpoH7QM",
+      "scope": "GOOGLE",
+      "types": [
+        "meal_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 986,
+      "vicinity": "224 E Spring Valley Rd, Richardson"
+    },
+    "distance_km": 5.33,
+    "score": 8
+  },
+  {
+    "source": "amazon",
+    "label": "The Halal Guys",
+    "address": "8448 Parkwood Blvd Plano Texas 75024 USA",
+    "lat": 33.091,
+    "lng": -96.81327,
+    "misc": {
+      "AddressNumber": "8448",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.81327,
+          33.091
+        ]
+      },
+      "Interpolated": false,
+      "Label": "The Halal Guys, 8448 Parkwood Blvd, Plano, TX 75024, United States",
+      "Municipality": "Plano",
+      "PostalCode": "75024",
+      "Region": "Texas",
+      "Street": "Parkwood Blvd",
+      "SubRegion": "Collin",
+      "SupplementalCategories": [
+        "Casual Dining",
+        "Fast Food"
+      ],
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 13.11,
+    "score": 8
+  },
+  {
+    "source": "amazon",
+    "label": "The Halal Guys",
+    "address": "5444 Lemmon Ave Dallas Texas 75209-6240 USA",
+    "lat": 32.82795,
+    "lng": -96.82356,
+    "misc": {
+      "AddressNumber": "5444",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant",
+        "Grocery"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.82356,
+          32.82795
+        ]
+      },
+      "Interpolated": false,
+      "Label": "The Halal Guys, 5444 Lemmon Ave, Dallas, TX 75209-6240, United States",
+      "Municipality": "Dallas",
+      "Neighborhood": "Northwest Dallas/Love Field",
+      "PostalCode": "75209-6240",
+      "Region": "Texas",
+      "Street": "Lemmon Ave",
+      "SubRegion": "Dallas",
+      "SupplementalCategories": [
+        "Fast Food"
+      ],
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 18.83,
+    "score": 8
+  },
+  {
+    "source": "amazon",
+    "label": "Fresh Halal Market",
+    "address": "241 N Industrial Blvd Bedford Texas 76021-6103 USA",
+    "lat": 32.84086,
+    "lng": -97.10036,
+    "misc": {
+      "AddressNumber": "241",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant",
+        "Grocery"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -97.10036,
+          32.84086
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Fresh Halal Market, 241 N Industrial Blvd, Bedford, TX 76021-6103, United States",
+      "Municipality": "Bedford",
+      "PostalCode": "76021-6103",
+      "Region": "Texas",
+      "Street": "N Industrial Blvd",
+      "SubRegion": "Tarrant",
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 36.45,
+    "score": 8
+  },
+  {
+    "source": "spoonacular",
+    "label": "Chopped Halal Grill",
+    "address": "3000 Northside Blvd Ste 500",
+    "misc": {
+      "hours": {
+        "0nAHK9eAI__E0Xm7FFHMf9aR0Jkk3CNcVTHl4Dam8uy9iA71ve9dhYnEIPh4-Vs06M6TDToIMoaRvwiYnQV7vsAninI9kdnqoSKKk8H9lXoV2RPSUvGbDyaJfbfM2ncf3AHqtVmFFG4f4q-iC0YHiCQHBxcF7-ZdcLBnkA9hy4B2RANHP0mPEm69QHhlo58cR8NslnyBHTnnQCL3mGRjGWH2OMvrLZ5_pZ9gM_oONaVsShyp9Hy7u4OSEdIl1tdeRMKUA1LqnK0aqWd2RiXVM0FkJOIz4i-ynOxC4MhG7K5Ut1sxz-p4zcuvYKCP0CozoJCCBll35e_GZDIsuclRS_WxhTRDoH99BOcT29PgujQIUdYTAOQz08YRsffqDmw1FI7k83r7M19RgCHZ2-w=": {
+          "operational": {
+            "Monday": "11:00AM - 08:30PM",
+            "Thursday": "11:00AM - 08:30PM",
+            "Friday": "11:00AM - 08:30PM",
+            "Sunday": "Closed",
+            "Wednesday": "11:00AM - 08:30PM",
+            "Tuesday": "11:00AM - 08:30PM",
+            "Saturday": "Closed"
+          },
+          "delivery": {
+            "Monday": "11:00AM - 08:30PM",
+            "Thursday": "11:00AM - 08:30PM",
+            "Friday": "11:00AM - 08:30PM",
+            "Sunday": "Closed",
+            "Wednesday": "11:00AM - 08:30PM",
+            "Tuesday": "11:00AM - 08:30PM",
+            "Saturday": "Closed"
+          },
+          "pickup": {
+            "Monday": "11:00AM - 08:30PM",
+            "Thursday": "11:00AM - 08:30PM",
+            "Friday": "11:00AM - 08:30PM",
+            "Sunday": "Closed",
+            "Wednesday": "11:00AM - 08:30PM",
+            "Tuesday": "11:00AM - 08:30PM",
+            "Saturday": "Closed"
+          },
+          "dine_in": {
+            "Monday": "11:00AM - 08:30PM",
+            "Thursday": "11:00AM - 08:30PM",
+            "Friday": "11:00AM - 08:30PM",
+            "Sunday": "Closed",
+            "Wednesday": "11:00AM - 08:30PM",
+            "Tuesday": "11:00AM - 08:30PM",
+            "Saturday": "Closed"
+          }
+        },
+        "y0ai9ZflvZW5vUI7KsL0mjMWZAmTA_m500BVPgcJoyt0j_gqCd87GjOxnwJiN-yc_yKFQsy34AvCP0VGb5YdnTTO1zmLXLX4NSFfPEzNP1atzoKF4dRTag6EJVSsKiJ32275SO_flohRHhiY77-P7dqBhD2IagyB6PUWGZ-HPn7JGpF0GlSIQ1X189SIibIDIxLlw6cAMhBjmgbfY_bZDC1q-EB39r6VQzVfhUfY0biadTceq57eyl5vQj_-Q27TbWX_9kCLr02IR4mVDUkG1O_1j5ESBEGpOU0PqcnC7j2R_Bs67auIUd1zgpSZUBcVENsorp5HfoTIIEy86g8CO_vwDuEM7z4jF33oqlNe1W4QCBwO96s6jxMjGcVaFCXQ71hEs_M3v60FZq4yyDEwHnMthoq51g==": {
+          "operational": {
+            "Monday": "09:00AM - 08:45PM",
+            "Thursday": "09:00AM - 08:45PM",
+            "Friday": "09:00AM - 08:45PM",
+            "Sunday": "Closed",
+            "Wednesday": "09:00AM - 08:45PM",
+            "Tuesday": "09:00AM - 08:45PM",
+            "Saturday": "Closed"
+          },
+          "delivery": {
+            "Monday": "09:00AM - 08:45PM",
+            "Thursday": "09:00AM - 08:45PM",
+            "Friday": "09:00AM - 08:45PM",
+            "Sunday": "Closed",
+            "Wednesday": "09:00AM - 08:45PM",
+            "Tuesday": "09:00AM - 08:45PM",
+            "Saturday": "Closed"
+          },
+          "pickup": {
+            "Monday": "09:00AM - 08:45PM",
+            "Thursday": "09:00AM - 08:45PM",
+            "Friday": "09:00AM - 08:45PM",
+            "Sunday": "Closed",
+            "Wednesday": "09:00AM - 08:45PM",
+            "Tuesday": "09:00AM - 08:45PM",
+            "Saturday": "Closed"
+          },
+          "dine_in": {
+            "Monday": "09:00AM - 08:45PM",
+            "Thursday": "09:00AM - 08:45PM",
+            "Friday": "09:00AM - 08:45PM",
+            "Sunday": "Closed",
+            "Wednesday": "09:00AM - 08:45PM",
+            "Tuesday": "09:00AM - 08:45PM",
+            "Saturday": "Closed"
+          }
+        }
+      },
+      "offers_third_party_delivery": true,
+      "address": {
+        "zipcode": "75080",
+        "country": "US",
+        "city": "Richardson",
+        "latitude": 32.99344635,
+        "lon": -96.75028229,
+        "street_addr_2": "Ste 500",
+        "state": "TX",
+        "street_addr": "3000 Northside Blvd Ste 500",
+        "lat": 32.99344635,
+        "longitude": -96.75028229
+      },
+      "supports_upc_codes": false,
+      "is_open": true,
+      "description": "",
+      "weighted_rating_value": 4,
+      "offers_first_party_delivery": true,
+      "aggregated_rating_count": 27,
+      "type": "restaurant",
+      "store_photos": [],
+      "logo_photos": [
+        "https://cdn-img.mealme.ai/7983eeb9997bca66c3512754897ace149225df08/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f677275626875622f696d6167652f75706c6f61642f76313439353231333232372f7168767470706d6c787a33317a766e706862387a2e706e67"
+      ],
+      "pickup_enabled": true,
+      "cuisines": [
+        "Bowls",
+        "Dessert",
+        "Dinner",
+        "Halal",
+        "Lunch",
+        "Middle Eastern",
+        "Sandwiches"
+      ],
+      "miles": 0.5354932068425862,
+      "dollar_signs": 2,
+      "delivery_enabled": true,
+      "food_photos": [
+        "https://cdn-img.mealme.ai/911bcfefe0021c65fdddc984b120b7d273eeb211/68747470733a2f2f3134303330373937352e63646e362e656469746d79736974652e636f6d2f75706c6f6164732f312f342f302f332f3134303330373937352f733535373832393332343731383932393435395f7038305f69315f77323130322e706e67"
+      ],
+      "name": "Chopped Halal Grill",
+      "phone_number": 19722352467,
+      "_id": "535b2036-0b0b-45c4-921b-9c8cc4ea4129",
+      "local_hours": {
+        "operational": {
+          "Monday": "09:00AM - 08:45PM",
+          "Thursday": "09:00AM - 08:45PM",
+          "Friday": "09:00AM - 08:45PM",
+          "Sunday": "Closed",
+          "Wednesday": "09:00AM - 08:45PM",
+          "Tuesday": "09:00AM - 08:45PM",
+          "Saturday": "Closed"
+        },
+        "delivery": {
+          "Monday": "09:00AM - 08:45PM",
+          "Thursday": "09:00AM - 08:45PM",
+          "Friday": "09:00AM - 08:45PM",
+          "Sunday": "Closed",
+          "Wednesday": "09:00AM - 08:45PM",
+          "Tuesday": "09:00AM - 08:45PM",
+          "Saturday": "Closed"
+        },
+        "pickup": {
+          "Monday": "09:00AM - 08:45PM",
+          "Thursday": "09:00AM - 08:45PM",
+          "Friday": "09:00AM - 08:45PM",
+          "Sunday": "Closed",
+          "Wednesday": "09:00AM - 08:45PM",
+          "Tuesday": "09:00AM - 08:45PM",
+          "Saturday": "Closed"
+        },
+        "dine_in": {
+          "Monday": "09:00AM - 08:45PM",
+          "Thursday": "09:00AM - 08:45PM",
+          "Friday": "09:00AM - 08:45PM",
+          "Sunday": "Closed",
+          "Wednesday": "09:00AM - 08:45PM",
+          "Tuesday": "09:00AM - 08:45PM",
+          "Saturday": "Closed"
+        }
+      }
+    },
+    "distance_km": null,
+    "score": 8
+  },
+  {
+    "source": "spoonacular",
+    "label": "Wava Halal Grill - 804 W Shore Dr Ste 1a",
+    "address": "804 West Shore Drive",
+    "misc": {
+      "hours": {
+        "OoYCmkmQM0baAdXDpA1G3R3JembSfLrxf4_dtWZcgEubIDIDkDCtzBqb2PA4cEkpaRTtp4IXRawKuHwxVCegl18scXN2J-AuHldxEMBXNXHkf5Jh-XnmTcGMpVJv04Jey99ROjYL8TxYhIo_4g5W0sjTD4ezpHThhPMaRlnKz2aBYDOIc6aHAu6BNr4jHMXvBAOJaPOAApSTMNlX81sMgSVh__j8WtPmVMst4NzqxMTCHaYvfacc_WIuWyOCzQlWOTaWaJOgA7JVbH5aWtpA0FmoYMR2BeAAJUKuMXNCeAWKQ1VXREZ2KHbKV1GHbelHVVYlxTjA0KnfK_qTVOmekGsbXmA4h7dXJZ7dX6gCqOUsapYhl6TTWsa7MxnSm-0l0KJKA_sRFXWMWP4t9GmLNTSqfpalTV4=": {
+          "operational": {
+            "Monday": "11:00AM - 02:45AM",
+            "Thursday": "11:00AM - 02:45AM",
+            "Friday": "11:00AM - 02:45AM",
+            "Sunday": "11:00AM - 02:45AM",
+            "Wednesday": "11:00AM - 02:45AM",
+            "Tuesday": "11:00AM - 02:45AM",
+            "Saturday": "11:00AM - 02:45AM"
+          },
+          "delivery": {
+            "Monday": "11:00AM - 01:00AM",
+            "Thursday": "11:00AM - 01:00AM",
+            "Friday": "11:00AM - 01:00AM",
+            "Sunday": "11:00AM - 01:00AM",
+            "Wednesday": "11:00AM - 01:00AM",
+            "Tuesday": "11:00AM - 01:00AM",
+            "Saturday": "11:00AM - 01:00AM"
+          },
+          "pickup": {
+            "Monday": "11:00AM - 02:45AM",
+            "Thursday": "11:00AM - 02:45AM",
+            "Friday": "11:00AM - 02:45AM",
+            "Sunday": "11:00AM - 02:45AM",
+            "Wednesday": "11:00AM - 02:45AM",
+            "Tuesday": "11:00AM - 02:45AM",
+            "Saturday": "11:00AM - 02:45AM"
+          },
+          "dine_in": {
+            "Monday": "11:00AM - 02:45AM",
+            "Thursday": "11:00AM - 02:45AM",
+            "Friday": "11:00AM - 02:45AM",
+            "Sunday": "11:00AM - 02:45AM",
+            "Wednesday": "11:00AM - 02:45AM",
+            "Tuesday": "11:00AM - 02:45AM",
+            "Saturday": "11:00AM - 02:45AM"
+          }
+        }
+      },
+      "offers_third_party_delivery": true,
+      "address": {
+        "zipcode": "75080",
+        "country": "US",
+        "city": "Richardson",
+        "latitude": 32.96227264,
+        "lon": -96.7476883,
+        "street_addr_2": "Suite 1a",
+        "state": "TX",
+        "street_addr": "804 West Shore Drive",
+        "lat": 32.96227264,
+        "longitude": -96.7477666
+      },
+      "supports_upc_codes": false,
+      "is_open": true,
+      "description": "",
+      "weighted_rating_value": 4.645833333333333,
+      "offers_first_party_delivery": true,
+      "aggregated_rating_count": 96,
+      "type": "restaurant",
+      "store_photos": [],
+      "logo_photos": [
+        "https://cdn-img.mealme.ai/8d7882866b4b06e4141e2768bd28ef0592fa01ec/68747470733a2f2f6d656e75667970726f64756374696f6e2e696d6769782e6e65742f3633383131303332333034313531363431322b313034363134382e706e673f6175746f3d636f6d70726573732c666f726d617426683d3130383026773d31393230266669743d6d6178"
+      ],
+      "pickup_enabled": true,
+      "cuisines": [
+        "Breakfast",
+        "Dessert",
+        "Greek",
+        "Halal",
+        "Mediterranean",
+        "Vegetarian"
+      ],
+      "miles": 1.624824425067317,
+      "dollar_signs": 2,
+      "delivery_enabled": true,
+      "food_photos": [
+        "https://cdn-img.mealme.ai/9e2b311aef8061fa6579b2f916bfc6f47193f471/68747470733a2f2f74622d7374617469632e756265722e636f6d2f70726f642f696d6167652d70726f632f70726f6365737365645f696d616765732f39356538353164646331663762333234656634636333376464633836363438632f35393534626362303036623130646266643062633136306636333730666166332e6a706567"
+      ],
+      "name": "Wava Halal Grill - 804 W Shore Dr Ste 1a",
+      "phone_number": 19727070808,
+      "_id": "65b04edd-188a-4451-b9f2-5a6c738d8199",
+      "local_hours": {
+        "operational": {
+          "Monday": "11:00AM - 03:00AM",
+          "Thursday": "11:00AM - 03:00AM",
+          "Friday": "11:00AM - 03:00AM",
+          "Sunday": "11:00AM - 03:00AM",
+          "Wednesday": "11:00AM - 03:00AM",
+          "Tuesday": "11:00AM - 03:00AM",
+          "Saturday": "11:00AM - 03:00AM"
+        },
+        "delivery": {
+          "Monday": "11:00AM - 03:00AM",
+          "Thursday": "11:00AM - 03:00AM",
+          "Friday": "11:00AM - 03:00AM",
+          "Sunday": "11:00AM - 03:00AM",
+          "Wednesday": "11:00AM - 03:00AM",
+          "Tuesday": "11:00AM - 03:00AM",
+          "Saturday": "11:00AM - 03:00AM"
+        },
+        "pickup": {
+          "Monday": "11:00AM - 03:00AM",
+          "Thursday": "11:00AM - 03:00AM",
+          "Friday": "11:00AM - 03:00AM",
+          "Sunday": "11:00AM - 03:00AM",
+          "Wednesday": "11:00AM - 03:00AM",
+          "Tuesday": "11:00AM - 03:00AM",
+          "Saturday": "11:00AM - 03:00AM"
+        },
+        "dine_in": {
+          "Monday": "11:00AM - 03:00AM",
+          "Thursday": "11:00AM - 03:00AM",
+          "Friday": "11:00AM - 03:00AM",
+          "Sunday": "11:00AM - 03:00AM",
+          "Wednesday": "11:00AM - 03:00AM",
+          "Tuesday": "11:00AM - 03:00AM",
+          "Saturday": "11:00AM - 03:00AM"
+        }
+      }
+    },
+    "distance_km": null,
+    "score": 8
+  },
+  {
+    "source": "spoonacular",
+    "label": "The Halal Guys -Richardson, Tx",
+    "address": "746 S Central Expy Ste 120",
+    "misc": {
+      "hours": {
+        "I9d5PqEJIqhPIKk_UzXz50lBcud60nBIzjGy4bvFjnaX7attI95WRcczsfyXgD11X1S_4gRBI1vtfOKfFOswPZQyRCqOEbVwY6F23_hj6mClseb3yfSoAPkx4ZIwMs4f-3s9RWAu9yqL2thKMU_OYCM2IVQj203glRuAhw2db5XrY12XQoCddSRYP7GBMHxU0GuIaib8xJngaznOVvMWSt34VIOSjUqpnBtKuTSxI6J3XLjHoS6BlrQZ3kqs21zHlm0egqyUw4f_crDz2qjluVYdxq_lRpyriAQHhVmGCXjItoNalKbBUKH5-pwRrE5Ht3dJT5FfVwYhDfhRDGFsMUSnMJ3bVVxaMlk_Z46pIo2ervsNxW3NpS3N-zPk3mVi1RypmATxf2kiQuyS": {
+          "operational": {
+            "Monday": "10:45AM - 08:45PM",
+            "Thursday": "10:45AM - 08:45PM",
+            "Friday": "10:45AM - 08:45PM",
+            "Sunday": "10:45AM - 08:45PM",
+            "Wednesday": "10:45AM - 08:45PM",
+            "Tuesday": "10:45AM - 08:45PM",
+            "Saturday": "10:45AM - 08:45PM"
+          },
+          "delivery": {
+            "Monday": "10:45AM - 08:45PM",
+            "Thursday": "10:45AM - 08:45PM",
+            "Friday": "10:45AM - 08:45PM",
+            "Sunday": "10:45AM - 08:45PM",
+            "Wednesday": "10:45AM - 08:45PM",
+            "Tuesday": "10:45AM - 08:45PM",
+            "Saturday": "10:45AM - 08:45PM"
+          },
+          "pickup": {
+            "Monday": "10:45AM - 08:45PM",
+            "Thursday": "10:45AM - 08:45PM",
+            "Friday": "10:45AM - 08:45PM",
+            "Sunday": "10:45AM - 08:45PM",
+            "Wednesday": "10:45AM - 08:45PM",
+            "Tuesday": "10:45AM - 08:45PM",
+            "Saturday": "10:45AM - 08:45PM"
+          },
+          "dine_in": {
+            "Monday": "10:45AM - 08:45PM",
+            "Thursday": "10:45AM - 08:45PM",
+            "Friday": "10:45AM - 08:45PM",
+            "Sunday": "10:45AM - 08:45PM",
+            "Wednesday": "10:45AM - 08:45PM",
+            "Tuesday": "10:45AM - 08:45PM",
+            "Saturday": "10:45AM - 08:45PM"
+          }
+        },
+        "rXz-i1Zn69cLqYyCMsiRCUjRDhEVPoknMwswUw5SOOto4LzRs5l8dGk0t06CmJkMGw-3ygMiqwaFgcczIn1lg0EA79ZZ6zxeuqc3yozONgL2KVJLQpYeM-iiIeoHuHaMumJfXpnSzTsPd4em5fG-PQnx0qIfuERT2zE3xH3RJ2zvLbyQdf7V-zndpMhejbfjVEugNEkx7pKXudL9GMFPyCIoUGiZ71-G9TyvVU_UuDNbmao25R2tLv7wqO3tbK6YeqKOKwzHRkO6Bz0DyMvRg5CoA009Qi15n6TOBc27xk8GclDul0SgAXn5nU6oq8U056nweOqMo0ab6Y2kddOkumyPAnMZO0FJtHevxZ7iKETUBd24-9diUjwbQzRyfSuVju_e-EF9tSqMEhWMkkBojII5-IsLRWw=": {
+          "operational": {
+            "Monday": "10:30AM - 11:00PM",
+            "Thursday": "10:30AM - 11:00PM",
+            "Friday": "10:30AM - 11:30PM",
+            "Sunday": "10:30AM - 11:00PM",
+            "Wednesday": "10:30AM - 11:00PM",
+            "Tuesday": "10:30AM - 11:00PM",
+            "Saturday": "10:30AM - 11:30PM"
+          },
+          "delivery": {
+            "Monday": "10:30AM - 10:30PM",
+            "Thursday": "10:30AM - 10:30PM",
+            "Friday": "10:30AM - 11:30PM",
+            "Sunday": "10:30AM - 10:30PM",
+            "Wednesday": "10:30AM - 10:30PM",
+            "Tuesday": "10:30AM - 10:30PM",
+            "Saturday": "10:30AM - 11:30PM"
+          },
+          "pickup": {
+            "Monday": "10:30AM - 11:00PM",
+            "Thursday": "10:30AM - 11:00PM",
+            "Friday": "10:30AM - 11:00PM",
+            "Sunday": "10:30AM - 11:00PM",
+            "Wednesday": "10:30AM - 11:00PM",
+            "Tuesday": "10:30AM - 11:00PM",
+            "Saturday": "10:30AM - 11:00PM"
+          },
+          "dine_in": {
+            "Monday": "10:30AM - 11:00PM",
+            "Thursday": "10:30AM - 11:00PM",
+            "Friday": "10:30AM - 11:30PM",
+            "Sunday": "10:30AM - 11:00PM",
+            "Wednesday": "10:30AM - 11:00PM",
+            "Tuesday": "10:30AM - 11:00PM",
+            "Saturday": "10:30AM - 11:30PM"
+          }
+        }
+      },
+      "offers_third_party_delivery": true,
+      "address": {
+        "zipcode": "75080",
+        "country": "US",
+        "city": "Richardson",
+        "latitude": 32.94280624,
+        "lon": -96.7434845,
+        "street_addr_2": "120120120",
+        "state": "TX",
+        "street_addr": "746 S Central Expy Ste 120",
+        "lat": 32.94280624,
+        "longitude": -96.7434986
+      },
+      "supports_upc_codes": false,
+      "is_open": true,
+      "description": "",
+      "weighted_rating_value": 4.477815699658703,
+      "offers_first_party_delivery": true,
+      "aggregated_rating_count": 293,
+      "type": "restaurant",
+      "store_photos": [
+        "https://d1ralsognjng37.cloudfront.net/2a98cdc9-7f1a-49af-be64-d759ad880710.jpeg"
+      ],
+      "logo_photos": [
+        "https://cdn-img.mealme.ai/a43475d8e5aa3a3e3a03e5de81adf237340132b7/68747470733a2f2f74622d7374617469632e756265722e636f6d2f70726f642f696d6167652d70726f632f70726f6365737365645f696d616765732f66613066346463376432663561306134303532613663326236343164646262392f61373066356339646634343064313032313365393332343465396562376361642e6a706567"
+      ],
+      "pickup_enabled": true,
+      "cuisines": [
+        "Chicken",
+        "Dessert",
+        "Dinner",
+        "Falafel",
+        "Group Friendly",
+        "Halal",
+        "Lunch",
+        "Mediterranean",
+        "Pitas",
+        "Vegetarian"
+      ],
+      "miles": 2.9892144043749074,
+      "dollar_signs": 2,
+      "delivery_enabled": true,
+      "food_photos": [
+        "https://cdn-img.mealme.ai/674d676c735cb3276b2b91faf3238e95e44b0d19/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f746f6173747461622f72657374617572616e74732f72657374617572616e742d3137313833313030303030303030303030302f6d656e752f696d616765732f6974656d2d62323465616336612d343066322d346238362d626235312d3762383163316466616136302e6a7067"
+      ],
+      "name": "The Halal Guys -Richardson, Tx",
+      "phone_number": 12144849363,
+      "_id": "dabb200c-f7d8-4dbb-a5a2-87a1f50813c5",
+      "local_hours": {
+        "operational": {
+          "Monday": "10:15AM - 11:00PM",
+          "Thursday": "10:15AM - 11:00PM",
+          "Friday": "10:15AM - 11:30PM",
+          "Sunday": "10:15AM - 11:00PM",
+          "Wednesday": "10:15AM - 11:00PM",
+          "Tuesday": "10:15AM - 11:00PM",
+          "Saturday": "10:15AM - 11:30PM"
+        },
+        "delivery": {
+          "Monday": "10:15AM - 10:30PM",
+          "Thursday": "10:15AM - 10:30PM",
+          "Friday": "10:15AM - 11:30PM",
+          "Sunday": "10:15AM - 10:30PM",
+          "Wednesday": "10:15AM - 10:30PM",
+          "Tuesday": "10:15AM - 10:30PM",
+          "Saturday": "10:15AM - 11:30PM"
+        },
+        "pickup": {
+          "Monday": "10:30AM - 11:00PM",
+          "Thursday": "10:30AM - 11:00PM",
+          "Friday": "10:30AM - 11:30PM",
+          "Sunday": "10:30AM - 11:00PM",
+          "Wednesday": "10:30AM - 11:00PM",
+          "Tuesday": "10:30AM - 11:00PM",
+          "Saturday": "10:30AM - 11:30PM"
+        },
+        "dine_in": {
+          "Monday": "10:15AM - 11:00PM",
+          "Thursday": "10:15AM - 11:00PM",
+          "Friday": "10:15AM - 11:30PM",
+          "Sunday": "10:15AM - 11:00PM",
+          "Wednesday": "10:15AM - 11:00PM",
+          "Tuesday": "10:15AM - 11:00PM",
+          "Saturday": "10:15AM - 11:30PM"
+        }
+      }
+    },
+    "distance_km": null,
+    "score": 8
+  },
+  {
+    "source": "spoonacular",
+    "label": "Milano Halal Pizza",
+    "address": "224 E Spring Valley Rd",
+    "misc": {
+      "hours": {
+        "xbjqETl4lc9FJJEepb_3E2M5ZIzd-BNA3UGutvPohAudt6ZQPm_R-h53IhwGL0hMI4LG4DFy6ZWrBckOPlZg7LCJZjZmPYRDeEk8h7Mp4Lj3NaARGg34cL0NiZy_5xADRO6RzluAnPmaBtBt8zIhwRdLd_xLhqczPa7dgq_a2cgK0f1U1H7lvSUGuAe-dRqa--osh1WhoqN9PyTyhWVQU00ASPdtRtU4ExOJwQaVmUcJ1b76pkRHy0shQ9U35D8fWPGSmA9-87QtN5IWcmhFhSsmPOQ7UeqUcbqR3W-aEDZUKmqF3px3xprqrM_9UTuRCRG9spLvk4UygHHBRnHDorcYDU5yUJeJo7BFk5-q0s85BCzWHi-cacNI2vs=": {
+          "operational": {
+            "Monday": "11:00AM - 11:00PM",
+            "Thursday": "11:00AM - 11:00PM",
+            "Friday": "11:00AM - 11:30PM",
+            "Sunday": "11:00AM - 11:00PM",
+            "Wednesday": "11:00AM - 11:00PM",
+            "Tuesday": "11:00AM - 11:00PM",
+            "Saturday": "11:00AM - 11:30PM"
+          },
+          "delivery": {
+            "Monday": "11:00AM - 10:30PM",
+            "Thursday": "11:00AM - 10:30PM",
+            "Friday": "11:00AM - 11:30PM",
+            "Sunday": "11:00AM - 10:30PM",
+            "Wednesday": "11:00AM - 10:30PM",
+            "Tuesday": "11:00AM - 10:30PM",
+            "Saturday": "11:00AM - 11:30PM"
+          },
+          "pickup": {
+            "Monday": "11:00AM - 11:00PM",
+            "Thursday": "11:00AM - 11:00PM",
+            "Friday": "11:00AM - 11:30PM",
+            "Sunday": "11:00AM - 11:00PM",
+            "Wednesday": "11:00AM - 11:00PM",
+            "Tuesday": "11:00AM - 11:00PM",
+            "Saturday": "11:00AM - 11:30PM"
+          },
+          "dine_in": {
+            "Monday": "11:00AM - 11:00PM",
+            "Thursday": "11:00AM - 11:00PM",
+            "Friday": "11:00AM - 11:30PM",
+            "Sunday": "11:00AM - 11:00PM",
+            "Wednesday": "11:00AM - 11:00PM",
+            "Tuesday": "11:00AM - 11:00PM",
+            "Saturday": "11:00AM - 11:30PM"
+          }
+        }
+      },
+      "offers_third_party_delivery": true,
+      "address": {
+        "zipcode": "75081",
+        "country": "US",
+        "city": "Richardson",
+        "latitude": 32.93968963,
+        "lon": -96.73408509,
+        "street_addr_2": "",
+        "state": "TX",
+        "street_addr": "224 E Spring Valley Rd",
+        "lat": 32.93968963,
+        "longitude": -96.73408509
+      },
+      "supports_upc_codes": false,
+      "is_open": true,
+      "description": "",
+      "weighted_rating_value": 4.671279442246091,
+      "offers_first_party_delivery": true,
+      "aggregated_rating_count": 5307,
+      "type": "restaurant",
+      "store_photos": [],
+      "logo_photos": [
+        "https://duyt4h9nfnj50.cloudfront.net/resized/134fd9d1ddc6d430fbde40741de76fab-w240-96.jpg"
+      ],
+      "pickup_enabled": true,
+      "cuisines": [
+        "Dessert Pizza",
+        "Exclusive To Eats",
+        "Family Meals",
+        "Halal",
+        "Healthy Pizza",
+        "Italian",
+        "Only Available Here",
+        "Pasta",
+        "Pizza",
+        "Veggie Pizza"
+      ],
+      "miles": 3.3128400530387903,
+      "dollar_signs": 3,
+      "delivery_enabled": true,
+      "food_photos": [
+        "https://cdn-img.mealme.ai/6ec444a61c71f835c9751803fb2b946b542c882a/68747470733a2f2f74622d7374617469632e756265722e636f6d2f70726f642f696d6167652d70726f632f70726f6365737365645f696d616765732f38326633376661316363343965633065643163366162303139343161653230382f61313962623039363932333130646664343165343961393663343234623361362e6a706567"
+      ],
+      "name": "Milano Halal Pizza",
+      "phone_number": 14698997171,
+      "_id": "b6d8faa3-2ed4-497f-9acd-50aef2fa39c3",
+      "local_hours": {
+        "operational": {
+          "Monday": "10:45AM - 11:30PM",
+          "Thursday": "10:45AM - 11:30PM",
+          "Friday": "12:00AM - 01:30AM, 10:45AM - 01:30AM",
+          "Sunday": "10:45AM - 11:30PM",
+          "Wednesday": "10:45AM - 11:30PM",
+          "Tuesday": "10:45AM - 11:30PM",
+          "Saturday": "10:45AM - 12:00AM"
+        },
+        "delivery": {
+          "Monday": "10:45AM - 11:30PM",
+          "Thursday": "10:45AM - 11:30PM",
+          "Friday": "12:00AM - 01:30AM, 10:45AM - 01:30AM",
+          "Sunday": "10:45AM - 11:30PM",
+          "Wednesday": "10:45AM - 11:30PM",
+          "Tuesday": "10:45AM - 11:30PM",
+          "Saturday": "10:45AM - 12:00AM"
+        },
+        "pickup": {
+          "Monday": "11:00AM - 11:30PM",
+          "Thursday": "11:00AM - 11:30PM",
+          "Friday": "12:00AM - 01:30AM, 11:00AM - 01:30AM",
+          "Sunday": "11:00AM - 11:30PM",
+          "Wednesday": "11:00AM - 11:30PM",
+          "Tuesday": "11:00AM - 11:30PM",
+          "Saturday": "11:00AM - 12:00AM"
+        },
+        "dine_in": {
+          "Monday": "10:45AM - 11:30PM",
+          "Thursday": "10:45AM - 11:30PM",
+          "Friday": "12:00AM - 01:30AM, 10:45AM - 01:30AM",
+          "Sunday": "10:45AM - 11:30PM",
+          "Wednesday": "10:45AM - 11:30PM",
+          "Tuesday": "10:45AM - 11:30PM",
+          "Saturday": "10:45AM - 12:00AM"
+        }
+      }
+    },
+    "distance_km": null,
+    "score": 8
+  },
+  {
+    "source": "google",
+    "label": "MADINA HALAL GRILL",
+    "address": "114 E Main St, Richardson",
+    "lat": 32.9487293,
+    "lng": -96.73122649999999,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9487293,
+          "lng": -96.73122649999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.95013697989273,
+            "lng": -96.72984572010728
+          },
+          "southwest": {
+            "lat": 32.94743732010728,
+            "lng": -96.73254537989273
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "MADINA HALAL GRILL",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114419073994526465595\">Surya Teja</a>"
+          ],
+          "photo_reference": "AXQCQNTrKNBqfZPsvmVogOGFQHHC4Cg6pk7Jd7U2PlCtSWJnCBpSUIcfnaUXkLW3Qy4tjTUAwGSl3YUOwZmpmcIbZnlyGItYEPsNjFWN25imc1RmaLTfkscr393j9AAlI6ocCONEWjKzFilaattsHMZ315zkP9jqY-qy6IhxEIkSvWo9zfugSZFDuvWz8X5vb12NJ3VgvdNvCsHU47ht-4YcpIVA4rEQGDNZU-Nyb9tZ7WPyZwYbUIXu1nwmCQJV8Dg3eSuQwfd_FioJtF2KG0ScMuP9qiCyU_TLHFCJWy0ggRpke9qIXjw-HC9RVPT8_IJlmYLbKlJaWnes0t9Twkx5cUW6pCKSqJQ5aghvCdwTI5n_bMev6Bo2jNJLAlU2WkQIZgko6AuDVhdanq_2-_FLEIWjIOq2y2pXTUSaUz5NekrWWNxdIul47vVHirSowfSWkBia2nCR0Z8Kjh93FKIz8J9_b4m6tOS4DErJiJXxHVXfn_LckGnaTqcYRnTitnad5DTLe2ovqjrL5431erF_esuf4EScVojqalvXksU2q4CsxPspkT-CS2VM6jocDbwnyKmjCCb4XBRuGg",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJB8B2hnMfTIYRmtdmjHn8RMc",
+      "plus_code": {
+        "compound_code": "W7X9+FG Richardson, Texas",
+        "global_code": "8645W7X9+FG"
+      },
+      "price_level": 1,
+      "rating": 4.7,
+      "reference": "ChIJB8B2hnMfTIYRmtdmjHn8RMc",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1683,
+      "vicinity": "114 E Main St, Richardson"
+    },
+    "distance_km": 4.47,
+    "score": 7
+  },
+  {
+    "source": "spoonacular",
+    "label": "Madina Halal Grill",
+    "address": "114 E Main St",
+    "misc": {
+      "hours": {
+        "9uipWuHuG3cferEzrKlFBZ94xcNaHgNS3kVnP2sirGAIsDI58PU3lndxvciLYOGkHo9ocd3gYmlxyvJvocM9MvtpsAw1O203Q5mIFRuNu1B-5eXgFOALFiD4Mi3RDZijITnClOY1f35EbC5Rl9PIebq0KgId5infgmLHyXQMxAHV4QMz-261cFmAFxmYXsjLq9Wk4Ur6Dx-uawFk3REh0Fb516hIU4brzGP-FfUbV3W76ttlnEXcshbZFqZxocf6W0jWadOdCAAgFJeLiNTfUwIVwg45UitJBsf2nf1fdiPYJVOsWUpZCQal-Lwct6qhkF1I1bk3VK_fQ8-A8dpuvQxb-LRS8S-cCqMZng==": {
+          "operational": {
+            "Monday": "10:00AM - 02:45AM",
+            "Thursday": "10:00AM - 02:45AM",
+            "Friday": "10:00AM - 02:45AM",
+            "Sunday": "10:00AM - 02:45AM",
+            "Wednesday": "10:00AM - 02:45AM",
+            "Tuesday": "10:00AM - 02:45AM",
+            "Saturday": "10:00AM - 02:45AM"
+          },
+          "delivery": {
+            "Monday": "10:00AM - 12:00AM",
+            "Thursday": "12:00AM - 02:45AM, 10:00AM - 02:45AM",
+            "Friday": "10:00AM - 02:45AM",
+            "Sunday": "10:00AM - 02:45AM",
+            "Wednesday": "10:00AM - 02:45PM",
+            "Tuesday": "10:00AM - 02:45PM",
+            "Saturday": "10:00AM - 02:45AM"
+          },
+          "pickup": {
+            "Monday": "10:00AM - 02:45AM",
+            "Thursday": "10:00AM - 02:45AM",
+            "Friday": "10:00AM - 02:45AM",
+            "Sunday": "10:00AM - 02:45AM",
+            "Wednesday": "10:00AM - 02:45AM",
+            "Tuesday": "10:00AM - 02:45AM",
+            "Saturday": "10:00AM - 02:45AM"
+          },
+          "dine_in": {
+            "Monday": "10:00AM - 02:45AM",
+            "Thursday": "10:00AM - 02:45AM",
+            "Friday": "10:00AM - 02:45AM",
+            "Sunday": "10:00AM - 02:45AM",
+            "Wednesday": "10:00AM - 02:45AM",
+            "Tuesday": "10:00AM - 02:45AM",
+            "Saturday": "10:00AM - 02:45AM"
+          }
+        }
+      },
+      "offers_third_party_delivery": true,
+      "address": {
+        "zipcode": "75081",
+        "country": "US",
+        "city": "Richardson",
+        "latitude": 32.9487292,
+        "lon": -96.7312317,
+        "street_addr_2": "",
+        "state": "TX",
+        "street_addr": "114 E Main St",
+        "lat": 32.9487237,
+        "longitude": -96.7312266
+      },
+      "supports_upc_codes": false,
+      "is_open": true,
+      "description": "",
+      "weighted_rating_value": 5,
+      "offers_first_party_delivery": true,
+      "aggregated_rating_count": 141,
+      "type": "restaurant",
+      "store_photos": [],
+      "logo_photos": [
+        "https://cdn-img.mealme.ai/9a908c5798d7ecf1a47029f93fc26cff0c759e68/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f677275626875622f696d6167652f75706c6f61642f76313530363033303135322f71763263353962767763757a7663676831726a722e706e67"
+      ],
+      "pickup_enabled": true,
+      "cuisines": [
+        "Dinner",
+        "Halal",
+        "Lunch Specials",
+        "Mediterranean",
+        "Moroccan"
+      ],
+      "miles": 2.7797373527127998,
+      "dollar_signs": 2,
+      "delivery_enabled": true,
+      "food_photos": [
+        "https://cdn-img.mealme.ai/eece32ca3bdafdd5b8b086af2bdd5786e417be6f/68747470733a2f2f6d656e75667970726f64756374696f6e2e696d6769782e6e65742f3633373930323239343939333038373634332b3833313033302e706e673f6175746f3d636f6d70726573732c666f726d617426683d33303026773d333030266669743d6d6178"
+      ],
+      "name": "Madina Halal Grill",
+      "phone_number": 12147749120,
+      "_id": "bcb4df3d-e786-493d-aed9-7b075b8bb0e9",
+      "local_hours": {
+        "operational": {
+          "Monday": "10:00AM - 02:45AM",
+          "Thursday": "10:00AM - 02:45AM",
+          "Friday": "10:00AM - 02:45AM",
+          "Sunday": "10:00AM - 02:45AM",
+          "Wednesday": "10:00AM - 02:45AM",
+          "Tuesday": "10:00AM - 02:45AM",
+          "Saturday": "10:00AM - 02:45AM"
+        },
+        "delivery": {
+          "Monday": "10:00AM - 02:45AM",
+          "Thursday": "10:00AM - 02:45AM",
+          "Friday": "10:00AM - 02:45AM",
+          "Sunday": "10:00AM - 02:45AM",
+          "Wednesday": "10:00AM - 02:45AM",
+          "Tuesday": "10:00AM - 02:45AM",
+          "Saturday": "10:00AM - 02:45AM"
+        },
+        "pickup": {
+          "Monday": "10:00AM - 02:45AM",
+          "Thursday": "10:00AM - 02:45AM",
+          "Friday": "10:00AM - 02:45AM",
+          "Sunday": "10:00AM - 02:45AM",
+          "Wednesday": "10:00AM - 02:45AM",
+          "Tuesday": "10:00AM - 02:45AM",
+          "Saturday": "10:00AM - 02:45AM"
+        },
+        "dine_in": {
+          "Monday": "10:00AM - 02:45AM",
+          "Thursday": "10:00AM - 02:45AM",
+          "Friday": "10:00AM - 02:45AM",
+          "Sunday": "10:00AM - 02:45AM",
+          "Wednesday": "10:00AM - 02:45AM",
+          "Tuesday": "10:00AM - 02:45AM",
+          "Saturday": "10:00AM - 02:45AM"
+        }
+      }
+    },
+    "distance_km": null,
+    "score": 6
+  },
+  {
+    "source": "google",
+    "label": "Ali Baba Mediterranean",
+    "address": "2103 N Central Expy, Richardson",
+    "lat": 32.9786926,
+    "lng": -96.7154336,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9786926,
+          "lng": -96.7154336
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.98004082989272,
+            "lng": -96.71408507010727
+          },
+          "southwest": {
+            "lat": 32.97734117010727,
+            "lng": -96.71678472989271
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Ali Baba Mediterranean",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1836,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104727605553670556471\">MICHAEL NUZZI</a>"
+          ],
+          "photo_reference": "AXQCQNT8ktqzNGj_6TKRnV4PGD9FMZSOB1sOLK5T2Lx4oYUj4KFh40gAJu-RWHcSn985cxPWRW3B0d8Kiy_Z6_m17-Q1doqNpW52H4dk23XZuRHxP0htnY5-KH5OS0BrEGWAayZM_IFTdED3bh1J-dM94zBDv2bGasu-c8ZOYHC4YXkpN8l6g_Zf_yZJFWjSWZuA1nbj5UtLSwZ98bZY-c7ywCRuLSyabVs2Nyk4ug9jA2LGY3bYo9OgFaL6jo2qqfKxnrNaIh4XF52yUfIaallBIz7Bg0Fa7mVFJqJRzD2kZEGmb1oJ-NkCbkyAg0A4Atn5ekM_VhmDfgNjZL7BWM_3XSo6eI9YEBt5ilH2XJXYc936pwy8Km948Hdjz5haCIQYxOf6uf3MAK9g0J1bxrZ5cPJJs7x188cP6wsiNbjudPIGcwODaiFHu2PBniz-gQweK321VXWgaCK_aDP2eixV2Vp_cc9Zd-MJlXEQlgB37HLpa-DXvnLyzUfjdC59Xx_a14c1kROh065V6-81_ZH9qGk7oxTwXkSrM2ojRt8BeQ_F7IROgbPwXHT0CJbIhW_Q28N1srxzJSUzFg",
+          "width": 3264
+        }
+      ],
+      "place_id": "ChIJNQ10vS8fTIYR0GtBeBDMC3I",
+      "plus_code": {
+        "compound_code": "X7HM+FQ Richardson, Texas",
+        "global_code": "8645X7HM+FQ"
+      },
+      "price_level": 2,
+      "rating": 4.5,
+      "reference": "ChIJNQ10vS8fTIYR0GtBeBDMC3I",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3946,
+      "vicinity": "2103 N Central Expy, Richardson"
+    },
+    "distance_km": 3.33,
+    "score": 3
+  },
+  {
+    "source": "google",
+    "label": "Angel Chicken Kitchen",
+    "address": "7632 Campbell Rd #314, Dallas",
+    "lat": 32.9771699,
+    "lng": -96.7687821,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9771699,
+          "lng": -96.7687821
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.97857117989272,
+            "lng": -96.76745482010728
+          },
+          "southwest": {
+            "lat": 32.97587152010728,
+            "lng": -96.77015447989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Angel Chicken Kitchen",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1960,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115999908305772552729\">blueberry tacos</a>"
+          ],
+          "photo_reference": "AXQCQNRzPzOo1LzpBAbNhUDtrOTMrFsAXvkLT_rXy4tjnjPm0RidFtDDBsMYr-zVb37E7Vmc4pR9Y243GD0C_mXVDYrqsFTdqAf9yMVVNucF__BooZyhJNuoDn6mH46bKauVw5tpbigSpOzmKw9KqhjeIvHrOq2jnCAxDpJwjyWxIO1hPydyNuAqYcC6tGuqtu50-UoM--GjrD87WJbmz7EJD_FiD67siKHS97CC-_NrYmuaAOaceq5ODgx1bxcXmG6scPjp7iJJjOfElv3i2ZKn-EjTBtesNxTGv1FEcWrIqeJdeVDdthqs8_MWQwVB_J9khegRp-7siQYJ1M0QT8VesYCoumRWtPfLChFqNYBRHEibDcNnPtwvAe6GQN_DmKfG42kiiR4q_7SqxCBsWqgB3pcq3Z6G4QgyNiYhvoxhNVaoif_9NjpGBv_yQkJToLJy1Ixu-Rvutj2i5YVQEG9Zo5rPc8yGq892fK5mAYjmAHKPjz7JFUXf0x9s577yE4ELUHe8li2PCOGqTPD3QAw97FO9kRPP7dXzyAKiyac-w35qCvB9C6zs36I4Xa7fQxwv4DF84zgCYaWfTA",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJI8Zu_fIhTIYR24Y_PhFR3YA",
+      "plus_code": {
+        "compound_code": "X6GJ+RF Dallas, Texas",
+        "global_code": "8645X6GJ+RF"
+      },
+      "price_level": 1,
+      "rating": 4.6,
+      "reference": "ChIJI8Zu_fIhTIYR24Y_PhFR3YA",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 816,
+      "vicinity": "7632 Campbell Rd #314, Dallas"
+    },
+    "distance_km": 1.98,
+    "score": 2
+  },
+  {
+    "source": "google",
+    "label": "AJ's Hot Chicken",
+    "address": "515 W Campbell Rd #111, Richardson",
+    "lat": 32.9763015,
+    "lng": -96.73736369999999,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9763015,
+          "lng": -96.73736369999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.97768297989273,
+            "lng": -96.73598677010727
+          },
+          "southwest": {
+            "lat": 32.97498332010728,
+            "lng": -96.73868642989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "AJ's Hot Chicken",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108020254568048821366\">AJ&#39;s Hot Chicken</a>"
+          ],
+          "photo_reference": "AXQCQNR9si1SA1xK4gbTe5-AfHYT6vZR54aBwsg4VABPmOkTChCQmcGI2uzVGAS1yRVSD4QninWvJyi0kn6ZplToLVRXGkNP9KwOZ0dnFRLSCaOrpQokFoLar6LPivNx-qO1sxhj2xHf-CY3zOIaA9AktIgSa0ac9p7pbTZD9HVK5fYI_8zysK6L0iWuSuqRbcsC2Snur3KgRvl7Dgo1MNH1ORoC_dBrHiNMkBh-GiIyQZ6G-0YPcRVmuW5eV3MQlALVguPpGkgyuVPCSVPiE8KT2SDvh5uvVzSaOgdAdEIPiwYHqGDO-Ak",
+          "width": 6000
+        }
+      ],
+      "place_id": "ChIJHbkgHNAfTIYRa5e_SDrlvj4",
+      "plus_code": {
+        "compound_code": "X7G7+G3 Richardson, Texas",
+        "global_code": "8645X7G7+G3"
+      },
+      "price_level": 1,
+      "rating": 4.8,
+      "reference": "ChIJHbkgHNAfTIYRa5e_SDrlvj4",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "meal_takeaway",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1604,
+      "vicinity": "515 W Campbell Rd #111, Richardson"
+    },
+    "distance_km": 1.58,
+    "score": 2
+  },
+  {
+    "source": "google",
+    "label": "Lezzet Cafe",
+    "address": "6869 Frankford Rd #100, Dallas",
+    "lat": 32.9981441,
+    "lng": -96.78521219999999,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9981441,
+          "lng": -96.78521219999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.99943852989272,
+            "lng": -96.78373432010727
+          },
+          "southwest": {
+            "lat": 32.99673887010727,
+            "lng": -96.78643397989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Lezzet Cafe",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108262835471375147704\">Saif K</a>"
+          ],
+          "photo_reference": "AXQCQNRgAh8kXm9rxLWpTSE1-2ndvHj-9qQTdXTBn33ldxVmTpBTzZekJSK3hVGYgWd6OHlmE6OtbKQje36RvgkfR7OoenqU5xsx9e8qBVpy8KRZBN_K0CZLMnNqidy4bsh4BMNNI8peE-Iqnpz-dutS1BbknYqDzUc_X7OMh_sac8B2sDF_lr8zOtlD5olXfE_HYa_XEodwOgTbCDX6quOuTvcBNcrU4oXukHU2O_6cojDqFh-v07HbwsStv2FiiTnsbLvVXl7CgZfItphKWS1m52VFyRVC8J5INBf3Rd2sDjeRro28WZFohiTLrOG21QNwEnRdPGLVM4WdPaaurWwewTV-C4umtxZpEjlK8ZqUjeNF_72IoaE7VpWwHY0qndL3pozJopMRTfvfE4K3nW5ys5aqC8YLcvI8gcNsdf3EKpeUlze0PRMfEaT_4QfRlpFQ2rIc1asxMC1_cPqtj-_xS6_P0YdaUmI2XpHUJ1ca93TlUMJocIdkz_rVSfOJmCjNU9VwQI1Lm0Zn1so2Ck1VYIs0L5WdRZBGzdHX3a0YVqSkMOXnHbYWgtAEZasePP4o2ujP-SAT",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJpfiYpDEiTIYRxnvhZ68z6GE",
+      "plus_code": {
+        "compound_code": "X6X7+7W Dallas, Texas",
+        "global_code": "8645X6X7+7W"
+      },
+      "price_level": 1,
+      "rating": 4.5,
+      "reference": "ChIJpfiYpDEiTIYRxnvhZ68z6GE",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1249,
+      "vicinity": "6869 Frankford Rd #100, Dallas"
+    },
+    "distance_km": 3.56,
+    "score": 1
+  },
+  {
+    "source": "google",
+    "label": "Antepian Turkish Cuisine",
+    "address": "2141 W Park Blvd, Plano",
+    "lat": 33.0269119,
+    "lng": -96.7351066,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.0269119,
+          "lng": -96.7351066
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.02823752989272,
+            "lng": -96.73367572010729
+          },
+          "southwest": {
+            "lat": 33.02553787010728,
+            "lng": -96.73637537989273
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Antepian Turkish Cuisine",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113666593087393839499\">Kevin Ryan</a>"
+          ],
+          "photo_reference": "AXQCQNRAkxn_uhUXNNZwZz9NzuUcN3DfJuQvhj786ik01PRRTtzaLcFw3AvpppE3zjcqMQdZ6-jQ-BpjciW213Lq_eHjjLw-gCUXOaPhelsQg_eMUE5Zk-VbS6VsKM8gQtr5SgbnGETftCpUBUbanj4U7m-UHcDLlUDVlGb7b9s4-LmTkrewBaJxyUR6Er_3skQ5ay1W2EkMTy0m7jJmqLS4gofXYM0nDZZZYitoQe-hb47DhGwRSpl8vuLhEoMOO85HttPV-r40HGXSX-OCxEdlstL67Fn_3UeJou8XMMLmfL-XCREsKGxCcYy8I3E4eCgNbCqmBXsFBPHe-QpSa02JE3VJj6ChZ4CMzkt6Z2SMspdAayID70RNm9MypilzwdMNBCrB0HlIF_GVVCTu5cJ142b8GJdB_g39Ipifa-qjoYaD8GePok0o5X93U4baz07bnGzCfW_3c760iXhi3aUhiSbNHpIHDxco3mnAvC8GhJLvdnmWqcB-E_HpwnNPngugqVirPQSyQzmo5lMKlURnUEuxjvpovP9jR2Do3D3_b2_4naq0th0wzDzYjD8ZiYPhoM7nZCAw",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJF2TVhbSHbIcRG7VjCf-RFks",
+      "plus_code": {
+        "compound_code": "27G7+QX Plano, Texas",
+        "global_code": "865527G7+QX"
+      },
+      "price_level": 1,
+      "rating": 4.6,
+      "reference": "ChIJF2TVhbSHbIcRG7VjCf-RFks",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 642,
+      "vicinity": "2141 W Park Blvd, Plano"
+    },
+    "distance_km": 4.79,
+    "score": 1
+  },
+  {
+    "source": "google",
+    "label": "Fratello Pizza & Doner Kebab",
+    "address": "201 S Greenville Ave Ste 101, Richardson",
+    "lat": 32.9471414,
+    "lng": -96.7303749,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9471414,
+          "lng": -96.7303749
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.94842307989273,
+            "lng": -96.72909207010727
+          },
+          "southwest": {
+            "lat": 32.94572342010729,
+            "lng": -96.73179172989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Fratello Pizza & Doner Kebab",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112824380716450105982\">Patrick Patterson</a>"
+          ],
+          "photo_reference": "AXQCQNS4kthQr5dYRAeKpkGkfs7fDsEqgNQmEvOZsi5kyymmsZbrWeJgJt6jPtKgvUUNL-GFTS9Iv7Nzm_j-AJe1OZ6AXGoCnrRCp_0OGl4GHxpI2-oQiedlSU4HwpXS7ijFBbUTHm7QxfzwcKOXObcOxt6yYtDbSclov2GOgRwe5RZxBURA5D2BJVaUfcBirUfdnrWp00JdEr4G0y54wdtOl-Wu7EODJjWlUDTvRonsA7npBecNt-JskB_SwxMt6w-wT6Qf-L_BCXEdx5nO0fG0cwFmGN8PPwXgaAkdSHo8WokHqpbyfCWkGOAgeMZ-BZ2CRASApfFCOAHU587Znzo7YSagfJsJVC7UNnvpMcXJypn7Q5MuMvw7wcAv-fDx7OVbX6RrhPCNMb8Gfrmp64QA56Ei4CqF3U9LLkuuLAHgCvEHR2GuAMct8DMuVhdVUCiV9MwV3OrwxHF9c-FaRSDAnrqJh2oXg9HUYorChgthZ1Oj02wQRNKhg8-OTiMSZCQYIorpb_70nNPEfOk2gPDdnIVsiyjlUuGdpC0R3uHLPYvcnTcYbSRIOxxZ5Um8v2JAzLi8M3lpewv37A",
+          "width": 4160
+        }
+      ],
+      "place_id": "ChIJ64G78nQfTIYR0PXSUbw5kvk",
+      "plus_code": {
+        "compound_code": "W7W9+VV Richardson, Texas",
+        "global_code": "8645W7W9+VV"
+      },
+      "price_level": 2,
+      "rating": 4.5,
+      "reference": "ChIJ64G78nQfTIYR0PXSUbw5kvk",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 813,
+      "vicinity": "201 S Greenville Ave Ste 101, Richardson"
+    },
+    "distance_km": 4.67,
+    "score": 1
+  },
+  {
+    "source": "google",
+    "label": "Gilgamesh Restaurant&Bakery مطعم ومشويات كلكامش",
+    "address": "300 Terrace Dr #301, Richardson",
+    "lat": 32.9515787,
+    "lng": -96.7278517,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9515787,
+          "lng": -96.7278517
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.95317947989272,
+            "lng": -96.72653647010729
+          },
+          "southwest": {
+            "lat": 32.95047982010728,
+            "lng": -96.72923612989274
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Gilgamesh Restaurant&Bakery مطعم ومشويات كلكامش",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3399,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103606434549155265234\">Gilgamesh Restaurant&amp;Bakery مطعم ومشويات كلكامش</a>"
+          ],
+          "photo_reference": "AXQCQNTL99D31Us8D_RJjdilodTxSThTO9D4-V-AlKvYKik8ApD-sLUqZcezPkdCpKg0KTP__-i6rGJEXTEytP7LQDcmvE3SHpx7-gQF5hZgQwMZw1fLbJ1XXdS1om8KRJOurJwKf5BZhfpYMp-wBJx6yTBmzcl87IvtHVkNV00bcN74qUBtSqzaXvD6wD9snodDKpXzM3x4TKgmWjT3rEnPTNUyJt2w_QOCSZDkE0Rujr3-gGBkP2aOqygSnvxGix4XGoRGUJ_RB33lsvUr_nGWkEWXSIOShyNvI2JwNOydIbY027osEkU",
+          "width": 4794
+        }
+      ],
+      "place_id": "ChIJVYZb5FIfTIYRkWd7PdiR0cI",
+      "plus_code": {
+        "compound_code": "X72C+JV Richardson, Texas",
+        "global_code": "8645X72C+JV"
+      },
+      "price_level": 2,
+      "rating": 4.6,
+      "reference": "ChIJVYZb5FIfTIYRkWd7PdiR0cI",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1152,
+      "vicinity": "300 Terrace Dr #301, Richardson"
+    },
+    "distance_km": 4.32,
+    "score": 1
+  },
+  {
+    "source": "google",
+    "label": "Shawarma House",
+    "address": "700 E Campbell Rd #120, Richardson",
+    "lat": 32.9748234,
+    "lng": -96.7150602,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9748234,
+          "lng": -96.7150602
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.97624287989272,
+            "lng": -96.71365777010728
+          },
+          "southwest": {
+            "lat": 32.97354322010727,
+            "lng": -96.71635742989271
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Shawarma House",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107830465670871691719\">Lama Z</a>"
+          ],
+          "photo_reference": "AXQCQNSdSaFUbQaK_mEUjVuOACSZxMtXilimbAoFmdpFEP3qOdfNjbJvme0mTDeO5EJlGTG-2qEiDS9KjKiChK9OskhZl0m9DR-VTNYNbvWbOo9vy7oxWYol18sJfhG0wMILfV0MqTt6WMpomwYxD2caAgf1Zx5r1YroqxWzVchW50JihHYtDRzlNWZvFmA-5Wr9GH5hUIg46Orvu1X_SGTD1LotzlVekRNXdygXRxUbsnJmVCaGdiPOrn9dnl9FsaMFvJT55-1o3Gd_Y0_rSHprCtJ4wVXbmaNSQnU9mA_sWtuSxNzoX_0owGi64RzdoFaUcMTDdFIWvB5ow7u84iSgQUkndHNOPHdl-drVazmK2NJDoba_yAp0fQmiiCSbZ3NF8w0AoaezFTya0uV2ONObzbwm9rw1kBEwC9EQdIroMV96nZMkZYrOwZUgX7FAvIYHGEO2qK4LpNC8l1t5YHHXbMd9bC0LvnvAgeOnrv1dFe6SQcBx2-L9_-op8Re6Elh3pZAnnQbg1pI9PfMUDJFsVUQ5ydCIOYCIZ1o2kdV__kw7eL910jQVrYvCjc7xxgV1mpol620n6wA5vQ",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJo_ZhEAAfTIYRvHgFgXzBIs8",
+      "plus_code": {
+        "compound_code": "X7FM+WX Richardson, Texas",
+        "global_code": "8645X7FM+WX"
+      },
+      "price_level": 1,
+      "rating": 4.9,
+      "reference": "ChIJo_ZhEAAfTIYRvHgFgXzBIs8",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 174,
+      "vicinity": "700 E Campbell Rd #120, Richardson"
+    },
+    "distance_km": 3.48,
+    "score": 1
+  },
+  {
+    "source": "google",
+    "label": "Rokhat Grill",
+    "address": "2205 N Central Expy #180, Plano",
+    "lat": 33.0297136,
+    "lng": -96.7096615,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.0297136,
+          "lng": -96.7096615
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.03118092989272,
+            "lng": -96.70822632010729
+          },
+          "southwest": {
+            "lat": 33.02848127010728,
+            "lng": -96.71092597989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Rokhat Grill",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1284,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102569315229268850982\">Artur Ruzhytskyi</a>"
+          ],
+          "photo_reference": "AXQCQNSlC3K2VURMh41Dxn5i_CqxKlbqssREZ2ycbpuFpdxZL0pdsb-BZfSCLLnhMj_Z04zT4hnxjy38BKHzekCAOpEL8rOn2hinYVpSMn7nj8UR0YBQKjfizHxYAMC2CSDKWFOVNEWCoEGX8xpd57bgNY_cVoDYDrW1lU77xUBpiQStDgIlxw0MgcBGkoRPW8MNyQghsPA3z9MHtFcg1I5iCf0npuz5xWQIN5UzOqh4VfN0QAMZ5ZVezxxbGXZbtCTqEb_NEB07jJYU9b1ikZO7Ps1DP_7JvU_8tXLe4TsGa-QDaJNinpX2ADfC7eAiz6-L6pBLQFgB9LFLbGBkkOECckmmoMrFw9sae-PBFfQgdrlUlk4er0iburOYJwSDhKczIr9anE3UPqaXtC2DFVVrgqYChGSx9jlRpkG3cev8U-9hVfEfQsegyqGc4aGl_go7TcD53TKsaOlErTyZrXXu9mVPMZbuENYEEErUW2t1zHvbAzMK61Doox5sudoTbPbXHhwNstGRHg4gB91YN4EGYoM0Hl_AhN7PAwLs_wm1YyTljMXu337u_WHxCBq7cKycYpIxxkRWYv8gDg",
+          "width": 1713
+        }
+      ],
+      "place_id": "ChIJP_GfizEZTIYRc2wzdmaam9g",
+      "plus_code": {
+        "compound_code": "27HR+V4 Plano, Texas",
+        "global_code": "865527HR+V4"
+      },
+      "price_level": 2,
+      "rating": 4.7,
+      "reference": "ChIJP_GfizEZTIYRc2wzdmaam9g",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2700,
+      "vicinity": "2205 N Central Expy #180, Plano"
+    },
+    "distance_km": 6.18,
+    "score": 0
+  },
+  {
+    "source": "google",
+    "label": "Express Kabob PLATE",
+    "address": "1915 N Central Expy #200, Plano",
+    "lat": 33.0277351,
+    "lng": -96.71176109999999,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.0277351,
+          "lng": -96.71176109999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.02908907989272,
+            "lng": -96.71042942010729
+          },
+          "southwest": {
+            "lat": 33.02638942010728,
+            "lng": -96.71312907989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Express Kabob PLATE",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101953103628183010683\">Phanact</a>"
+          ],
+          "photo_reference": "AXQCQNS0N8rQJysdrkz0fSR9H_1ZSbnDFrfZP-vRp6hE7cLNSHntUYVjgjrXRnBhsMCHBoG6hOV5weU8Zi6xVXJyHxuVPs6eiLimVsnNJgm6t6HU28ISxPKxwL4Z0rA6g9WY0-WTIw2vX6S7fcum2ANb7Eyv5mFa9Q5spkf5VGSMon4eKFlqDpbjqrC9ytvpbc8V2pLlpxinWFTFtE1GCec5FD3Vxs_Me6rdpcOVpgJvqJSQAuUnQiPOgDbBKuL-FMKfAJD4x1qDwg4y6TFTayt1URr3qr4BDKUpgNJPZV9S2olZmWeegcU6tww5sie8xhiRNHKdW6jY3eeLspUHyNIGYtRMTDPzh6GEQ7ySeaIg0oLJ9B8lugpaXOE9Ee5yIFapgiXfwt5GNSPS6kvL-q0IL9j3tQWr3qN1bx7SASgO7fbv0Cu-ImvYPK7uk-wBBX7T_FQQATsugG92rpb0p2Dactif6pGwZ62Dx7s7O56FcYsW2mDXIaiImKYZRVS46ElIURQol2VVowvGGC7X_HDvtxSg9cDA3ThEofajGN6YG6Z6Vq4ool_0NMTzR2blOZz1HBw1hytxjVrJLw",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJwz0JAfwYTIYRu9oNX3fTAe8",
+      "plus_code": {
+        "compound_code": "27HQ+38 Plano, Texas",
+        "global_code": "865527HQ+38"
+      },
+      "price_level": 1,
+      "rating": 4.4,
+      "reference": "ChIJwz0JAfwYTIYRu9oNX3fTAe8",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1174,
+      "vicinity": "1915 N Central Expy #200, Plano"
+    },
+    "distance_km": 5.88,
+    "score": 0
+  },
+  {
+    "source": "google",
+    "label": "The Port of Peri Peri",
+    "address": "2301 N Central Expy Suite 165, Plano",
+    "lat": 33.030904,
+    "lng": -96.70884439999999,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.030904,
+          "lng": -96.70884439999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.03219947989271,
+            "lng": -96.70735222010728
+          },
+          "southwest": {
+            "lat": 33.02949982010727,
+            "lng": -96.71005187989273
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "The Port of Peri Peri",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117766021179659978430\">Adnan Yaqoob</a>"
+          ],
+          "photo_reference": "AXQCQNS3_4hrbU_oOTp7ZyNZwOtrnWn5pd-Hf59RGpi3DcO-mskts2TCnjxamFLmygU95MfwZMXDpvgfzPPW6fLf7kgu-a8J_rOz8Qeg2NVvJlb_c7aP9feeWTZJVPxUru6gKuUxG-pUzo-jCRyr5uPYaE0CX3O2Xa4XBnkcHHXjf90drVPVf-C09d9igGZmXIghiI-0L7cGxwkL0vd9nzeeawJ31THOOB6NzPPkpdxte67UIB9EgM-fEGDqO9CL_1WJnEjg1A1x-NTuFaOUw1_9TzpJXHM4cQ06ftt1f8cF55oU3x8JpHO34kMnS88qHMMwF0BaptHOj-yxOf4xXVw4m-3EHD6tHOUZDJCou7E4Hb7jXEVeCaPMIs2Y3FcZMqHh4vjJW3y2nUo_XGU5b3Bnug5CkeBGeWqy1HyLa6OyyR-yBKY4Ad3GutLvq5yUIIm3F7f7YAudGFxSgW8uhXnz_7Fipdu8fEBkpL7TSC5mw2j8BoPQgTrFMJeF7pjA5sD9j0jK3ty8dCn0qiLxVqkn8c6OkFd1jY24PsHqTkgc4YHsRH2m8q-_X_pLGb4xhsDQRQYEaIAj",
+          "width": 5312
+        }
+      ],
+      "place_id": "ChIJ-eC70QkZTIYRmFiTHeFA6Zo",
+      "plus_code": {
+        "compound_code": "27JR+9C Plano, Texas",
+        "global_code": "865527JR+9C"
+      },
+      "price_level": 2,
+      "rating": 4.3,
+      "reference": "ChIJ-eC70QkZTIYRmFiTHeFA6Zo",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1397,
+      "vicinity": "2301 N Central Expy Suite 165, Plano"
+    },
+    "distance_km": 6.33,
+    "score": 0
+  },
+  {
+    "source": "google",
+    "label": "Turan Uyghur Kitchen",
+    "address": "2001 Coit Rd #163, Plano",
+    "lat": 33.0289585,
+    "lng": -96.7717467,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.0289585,
+          "lng": -96.7717467
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 33.03031272989272,
+            "lng": -96.77030657010728
+          },
+          "southwest": {
+            "lat": 33.02761307010728,
+            "lng": -96.77300622989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Turan Uyghur Kitchen",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1824,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107039141981798499793\">Turan Uyghur Kitchen</a>"
+          ],
+          "photo_reference": "AXQCQNR5ont8kN2ZlgRqGU8o9sGzAEkTpsx5w8bf_r26FJVWUWiex22Hr77win8kJHYG268NAQVR9y51k5iLhrS9WFbdtSBHKmbKo9sZ3SepnyKCxFI9oybpGnzXYDiGz3YQpVhuLr3ItUYBEboejp_B8sYMGj08Mq7CHkhmBclFgTAR0m_b-gyMiFYB9PiSz9qyD7_-iKdy6R5jidObQ3vYURoKuR5sLon5A36wuDqyPeM3o8Gkk3jr8K_NTI1ImUJq1rSLKYPAB2IjyCm76cN-OZXxzp7fdGgD8HFi-CxEYeHZfE7BJbc",
+          "width": 2736
+        }
+      ],
+      "place_id": "ChIJLw334oYjTIYR7Pm930qGxFc",
+      "plus_code": {
+        "compound_code": "26HH+H8 Plano, Texas",
+        "global_code": "865526HH+H8"
+      },
+      "price_level": 2,
+      "rating": 4.7,
+      "reference": "ChIJLw334oYjTIYR7Pm930qGxFc",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 426,
+      "vicinity": "2001 Coit Rd #163, Plano"
+    },
+    "distance_km": 5.22,
+    "score": 0
+  },
+  {
+    "source": "google",
+    "label": "Shish Kabob Cafe",
+    "address": "7879 Spring Valley Rd suit 115, Dallas",
+    "lat": 32.9408375,
+    "lng": -96.7704792,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9408375,
+          "lng": -96.7704792
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.94207097989273,
+            "lng": -96.76904347010728
+          },
+          "southwest": {
+            "lat": 32.93937132010728,
+            "lng": -96.77174312989271
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Shish Kabob Cafe",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 675,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114020152450667422077\">Shish Kabob Cafe</a>"
+          ],
+          "photo_reference": "AXQCQNTp4k57kn6CiwdyRcXEqdmnstx3pMkZLEd2LgB76pm1_hKxO2DGS-y00Ferx-oybKAYev4dAYY8BbtnD8QatXu_aStK5KbVoDYIBpnCit_hxXn9f29cI8-eKSMTLUQs5HErarNwtcCQL4D3MokhOSyBIhXgEupzxL3Lg3RpOmEPucECflmfjHdbVzu6j0p8rRzcXGyY0ZnyyqdXO75wlLQkGCwc7UIaFp62VmaR4GLJTFH5fmWE6FneXZ0sUHl1umg3pd-2kmON5o9zAv4O0w1mtDxdFX99Tz9Z_RaOcLtsciRrLM0",
+          "width": 1200
+        }
+      ],
+      "place_id": "ChIJKTdDwiwgTIYR8QJyTS3j2Vg",
+      "plus_code": {
+        "compound_code": "W6RH+8R Dallas, Texas",
+        "global_code": "8645W6RH+8R"
+      },
+      "price_level": 1,
+      "rating": 4.4,
+      "reference": "ChIJKTdDwiwgTIYR8QJyTS3j2Vg",
+      "scope": "GOOGLE",
+      "types": [
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1549,
+      "vicinity": "7879 Spring Valley Rd suit 115, Dallas"
+    },
+    "distance_km": 5.34,
+    "score": 0
+  },
+  {
+    "source": "google",
+    "label": "ZDAR Food",
+    "address": "214 E Spring Valley Rd, Richardson",
+    "lat": 32.9397322,
+    "lng": -96.7344032,
+    "misc": {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9397322,
+          "lng": -96.7344032
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 32.94111797989272,
+            "lng": -96.73305547010729
+          },
+          "southwest": {
+            "lat": 32.93841832010728,
+            "lng": -96.73575512989272
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "ZDAR Food",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104038019666908350145\">Ethar Alassaf</a>"
+          ],
+          "photo_reference": "AXQCQNQfjeq1UIUSyi4q7vBmYoAgQcZef8NYIK09ZrDJEQG5rT766h5z2ERb9-2yPRE78wgatGKcxbA_NKphwZPhvktIYCWZcPrvF1RlZtKSriA2RX4wlyv1qbqvarsIg_9kyxqwiBItupHo3PImdkkRr-rwS0OKbBl4bmCQoSiWwCPu_6ioAJ1s938sVlN3pI7-MGq44Gl0Y3nJicVpnavTaLNLaHxeMA4l2IC5UbnbxfzDg83gLoPeakLU8p7POilff9Zjntk-VAl-FVZRVZ4YEtJ3SYAM56e2Lnw4-TZIV8t8CryM7be4yABbIA-kFM2IgoMgE0oxCw-ziPdVpJC6GvQamPpMBLAacsypScFRw_--I7VXs9YMpMotcFjqBSXUzXO_mcFHHJ5hMiqVY5nuB9YAznplfFEgo9cOxajf20pOwSWRJW-xdu_o4bejyvTsDai1wQ6Pzxr8L-XVYERbTdM8bF-H5g40Zo-wLpKKQIOmd82T7cVqkRpmwnBNVMNW5me1fWLp_9CSAyB6c6bqvK94GhE8mb2-enMejGtcNJqfM0eKAn0KPR3ul46yQsPiU_kw0DMz0dYRAw",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJUSGA810eTIYRDPQgSikzrhM",
+      "plus_code": {
+        "compound_code": "W7Q8+V6 Richardson, Texas",
+        "global_code": "8645W7Q8+V6"
+      },
+      "price_level": 1,
+      "rating": 4.3,
+      "reference": "ChIJUSGA810eTIYRDPQgSikzrhM",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 719,
+      "vicinity": "214 E Spring Valley Rd, Richardson"
+    },
+    "distance_km": 5.32,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Express Kabob",
+    "address": "1915 N Central Expy Plano Texas 75075-6900 USA",
+    "lat": 33.02811,
+    "lng": -96.71159,
+    "misc": {
+      "AddressNumber": "1915",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.71159,
+          33.02811
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Express Kabob, 1915 N Central Expy, Plano, TX 75075-6900, United States",
+      "Municipality": "Plano",
+      "PostalCode": "75075-6900",
+      "Region": "Texas",
+      "Street": "N Central Expy",
+      "SubRegion": "Collin",
+      "SupplementalCategories": [
+        "Fast Food"
+      ],
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 5.93,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "7 Spice",
+    "address": "6205 Coit Rd Plano Texas 75024-5472 USA",
+    "lat": 33.05781,
+    "lng": -96.77216,
+    "misc": {
+      "AddressNumber": "6205",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.77216,
+          33.05781
+        ]
+      },
+      "Interpolated": false,
+      "Label": "7 Spice, 6205 Coit Rd, Plano, TX 75024-5472, United States",
+      "Municipality": "Plano",
+      "PostalCode": "75024-5472",
+      "Region": "Texas",
+      "Street": "Coit Rd",
+      "SubRegion": "Collin",
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 8.28,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Al-Maidah Kabob & Grill",
+    "address": "909 W Spring Creek Pkwy Plano Texas 75023-4431 USA",
+    "lat": 33.05769,
+    "lng": -96.71078,
+    "misc": {
+      "AddressNumber": "909",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.71078,
+          33.05769
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Al-Maidah Kabob & Grill, 909 W Spring Creek Pkwy, Plano, TX 75023-4431, United States",
+      "Municipality": "Plano",
+      "PostalCode": "75023-4431",
+      "Region": "Texas",
+      "Street": "W Spring Creek Pkwy",
+      "SubRegion": "Collin",
+      "SupplementalCategories": [
+        "Fast Food"
+      ],
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 8.8,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Cafe Laziz",
+    "address": "9203 Skillman St Dallas Texas 75243 USA",
+    "lat": 32.90352,
+    "lng": -96.71631,
+    "misc": {
+      "AddressNumber": "9203",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.71631,
+          32.90352
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Cafe Laziz, 9203 Skillman St, Dallas, TX 75243, United States",
+      "Municipality": "Dallas",
+      "PostalCode": "75243",
+      "Region": "Texas",
+      "Street": "Skillman St",
+      "SubRegion": "Dallas",
+      "SupplementalCategories": [
+        "Casual Dining",
+        "Coffee-Tea",
+        "Catering and Other Food Services"
+      ],
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 9.67,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Shinwari Kitchen",
+    "address": "3648 Old Denton Rd Carrollton Texas 75007-2948 USA",
+    "lat": 33.01067,
+    "lng": -96.91013,
+    "misc": {
+      "AddressNumber": "3648",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.91013,
+          33.01067
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Shinwari Kitchen, 3648 Old Denton Rd, Carrollton, TX 75007-2948, United States",
+      "Municipality": "Carrollton",
+      "Neighborhood": "North Central Carrollton",
+      "PostalCode": "75007-2948",
+      "Region": "Texas",
+      "Street": "Old Denton Rd",
+      "SubRegion": "Denton",
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 15.18,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Ariana Cuisine",
+    "address": "3607 Greenville Ave Dallas Texas 75206-5631 USA",
+    "lat": 32.83131,
+    "lng": -96.77044,
+    "misc": {
+      "AddressNumber": "3607",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.77044,
+          32.83131
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Ariana Cuisine, 3607 Greenville Ave, Dallas, TX 75206-5631, United States",
+      "Municipality": "Dallas",
+      "Neighborhood": "'M' Streets",
+      "PostalCode": "75206-5631",
+      "Region": "Texas",
+      "Street": "Greenville Ave",
+      "SubRegion": "Dallas",
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 17.27,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Karachi Kitchen",
+    "address": "8200 Stonebrook Pkwy Frisco Texas 75034-5536 USA",
+    "lat": 33.14061,
+    "lng": -96.81278,
+    "misc": {
+      "AddressNumber": "8200",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.81278,
+          33.14061
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Karachi Kitchen, 8200 Stonebrook Pkwy, Frisco, TX 75034-5536, United States",
+      "Municipality": "Frisco",
+      "Neighborhood": "Frisco South Shopping Center",
+      "PostalCode": "75034-5536",
+      "Region": "Texas",
+      "Street": "Stonebrook Pkwy",
+      "SubRegion": "Collin",
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 18.19,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Bae's Kitchen",
+    "address": "771 W Round Grove Rd Lewisville Texas 75067-8002 USA",
+    "lat": 33.00531,
+    "lng": -97.00851,
+    "misc": {
+      "AddressNumber": "771",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -97.00851,
+          33.00531
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Bae's Kitchen, 771 W Round Grove Rd, Lewisville, TX 75067-8002, United States",
+      "Municipality": "Lewisville",
+      "PostalCode": "75067-8002",
+      "Region": "Texas",
+      "Street": "W Round Grove Rd",
+      "SubRegion": "Denton",
+      "SupplementalCategories": [
+        "Casual Dining",
+        "Taqueria",
+        "Fast Food",
+        "Tea House"
+      ],
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 24.2,
+    "score": 0
+  },
+  {
+    "source": "amazon",
+    "label": "Hadramout Restaurant",
+    "address": "3401 W Airport Fwy Irving Texas 75062-5902 USA",
+    "lat": 32.83938,
+    "lng": -96.99146,
+    "misc": {
+      "AddressNumber": "3401",
+      "Categories": [
+        "PointOfInterestType",
+        "Restaurant"
+      ],
+      "Country": "USA",
+      "Geometry": {
+        "Point": [
+          -96.99146,
+          32.83938
+        ]
+      },
+      "Interpolated": false,
+      "Label": "Hadramout Restaurant, 3401 W Airport Fwy, Irving, TX 75062-5902, United States",
+      "Municipality": "Irving",
+      "PostalCode": "75062-5902",
+      "Region": "Texas",
+      "Street": "W Airport Fwy",
+      "SubRegion": "Dallas",
+      "TimeZone": {
+        "Name": "America/Chicago",
+        "Offset": -18000
+      }
+    },
+    "distance_km": 27.79,
+    "score": 0
+  }
+]
