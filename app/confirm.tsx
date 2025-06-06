@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useThemeColors } from "./constants/colors";
-import { confirmSignUp } from "./utils/cognito";
+import { useAuth } from "./context/AuthContext";
 
 export default function ConfirmSignUpScreen() {
   const colors = useThemeColors();
@@ -19,6 +19,7 @@ export default function ConfirmSignUpScreen() {
   const [email, setEmail] = useState("");
   const [code, setCode] = useState("");
   const [loading, setLoading] = useState(false);
+  const { confirmSignUp } = useAuth();
 
   const handleConfirm = async () => {
     setLoading(true);
