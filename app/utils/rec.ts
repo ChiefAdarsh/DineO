@@ -1,10 +1,14 @@
 // dinoRecommender.ts
+import { LocationClient, SearchPlaceIndexForTextCommand } from "@aws-sdk/client-location";
 import axios from 'axios';
+import dotenv from 'dotenv';
+import { writeFileSync } from 'fs';
 
-// import endpointsConfig from '../../endpoints.config';
+// Explicit path fallback if needed
+dotenv.config();
 
 interface Place {
-  source: 'google' | 'amazon';
+  source: 'google' | 'amazon' | 'spoonacular';
   label: string;
   address: string;
   lat: number;
@@ -38,14 +42,22 @@ function getDistanceKm(lat1: number, lon1: number, lat2: number, lon2: number): 
 }
 
 function normalizeAddress(address: string): string {
+  if (typeof address !== 'string') return '';
   return address
     .toLowerCase()
-    .replace(/[^\w\s]/gi, '')
+    .replace(/[,]/g, '') // Remove commas
+    .replace(/\b(ste|suite|#)\s*\d+\b/g, '') // Remove suite/unit/#
     .replace(/\bstreet\b/g, 'st')
     .replace(/\broad\b/g, 'rd')
     .replace(/\bboulevard\b/g, 'blvd')
+    .replace(/[^\w\s]/gi, '') // Remove any other punctuation
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function normalizeLabel(label: string): string {
+  if (typeof label !== 'string') return '';
+  return label.toLowerCase().replace(/[^\w\s]/gi, '').replace(/\s+/g, ' ').trim();
 }
 
 function deduplicatePlaces(places: Place[], thresholdKm = 0.1): Place[] {
@@ -53,10 +65,17 @@ function deduplicatePlaces(places: Place[], thresholdKm = 0.1): Place[] {
 
   for (const place of places) {
     const normAddr = normalizeAddress(place.address);
+    const normLabel = normalizeLabel(place.label);
+    console.log(`Processing place: ${normLabel} at ${normAddr}`);
     let duplicate = false;
 
     for (const [key, existing] of seen.entries()) {
-      if (normAddr === key) {
+      const [existingLabel, existingAddr] = key.split('|');
+      // Compare both normalized label and address, and check distance
+      if (
+        normLabel === existingLabel &&
+        normAddr === existingAddr
+      ) {
         const dist = getDistanceKm(place.lat, place.lng, existing.lat, existing.lng);
         if (dist < thresholdKm) {
           duplicate = true;
@@ -66,7 +85,7 @@ function deduplicatePlaces(places: Place[], thresholdKm = 0.1): Place[] {
     }
 
     if (!duplicate) {
-      seen.set(normAddr, place);
+      seen.set(`${normLabel}|${normAddr}`, place);
     }
   }
   return Array.from(seen.values());
@@ -93,13 +112,12 @@ function scorePlace(place: Place, context: Context): Place {
 
 async function fetchGooglePlaces(lat: number, lng: number, radius: number, keyword: string): Promise<Place[]> {
   const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json`;
-  console.log('Google Places API Key:', process.env.GOOGLE_API_KEY);
   const params = {
     location: `${lat},${lng}`,
     radius,
     keyword,
     type: 'restaurant',
-    key: process.env.GOOGLE_API_KEY as string,
+    key: process.env.EXPO_PUBLIC_GOOGLE_API_KEY as string,
   };
 
   try {
@@ -110,6 +128,7 @@ async function fetchGooglePlaces(lat: number, lng: number, radius: number, keywo
       address: place.vicinity,
       lat: place.geometry.location.lat,
       lng: place.geometry.location.lng,
+      misc: place,
     }));
   } catch (error) {
     console.error('Google Places error:', error);
@@ -118,44 +137,88 @@ async function fetchGooglePlaces(lat: number, lng: number, radius: number, keywo
 }
 
 async function fetchAmazonPlaces(lat: number, lng: number, radius: number, foodType: string): Promise<Place[]> {
-  const url = `https://places.geo.us-east-1.amazonaws.com/places/v0/indexes/DinoIndex/search/position`;
-  const body = {
-    Position: [lng, lat],
+  const client = new LocationClient({
+    region: "us-east-1",
+    credentials: {
+      accessKeyId: process.env.EXPO_PUBLIC_AWS_ACCESS_KEY_ID as string,
+      secretAccessKey: process.env.EXPO_PUBLIC_AWS_SECRET_ACCESS_KEY as string,
+    },
+  });
+
+  const command = new SearchPlaceIndexForTextCommand({
+    IndexName: process.env.EXPO_PUBLIC_AWS_PLACE_INDEX as string,
+    Text: foodType,
+    BiasPosition: [lng, lat],
     MaxResults: 50,
-    FilterCategories: ['Restaurant'],
-    FilterFoodTypes: [foodType],
-  };
+  });
 
   try {
-    const key = process.env.AWS_API_KEY as string;
-    console.log('Amazon Places API Key:', key);
-    const response = await axios.post(url, body, {
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Amz-Api-Key': key,
-      },
+    const response = await client.send(command);
+    return (response.Results || []).map((result: any) => {
+      const place = result.Place;
+      return {
+        source: 'amazon',
+        label: (place.Label).split(',')[0],
+        address: [
+          place.AddressNumber,
+          place.Street,
+          place.Municipality,
+          place.Region,
+          place.PostalCode,
+          place.Country,
+        ].filter(Boolean).join(' '),
+        lat: place.Geometry.Point[1],
+        lng: place.Geometry.Point[0],
+        misc: place,
+      };
     });
-
-    return response.data.Results.map((result: any) => ({
-      source: 'amazon',
-      label: result.Place.Label,
-      address: result.Place.Address,
-      lat: result.Place.Geometry.Point[1],
-      lng: result.Place.Geometry.Point[0],
-    }));
   } catch (error) {
     console.error('Amazon Places error:', error);
     return [];
   }
 }
 
+async function fetchSpoonacularPlaces(lat: number, lng: number, radius: number, keyword: string): Promise<Place[]> {
+  const apiKey = process.env.EXPO_PUBLIC_SPOONACULAR_API_KEY as string;
+  const url = `https://api.spoonacular.com/food/restaurants/search`;
+  const params = {
+    query: keyword,
+    lat,
+    lng,
+    radius,
+    number: 50,
+  };
+
+  try {
+    const response = await axios.get(url, {
+      params,
+      headers: {
+        'x-api-key': apiKey,
+      },
+    });
+    // Spoonacular's response structure may differ; adjust as needed
+    return (response.data.restaurants || []).map((place: any) => ({
+      source: 'spoonacular',
+      label: place.name,
+      address: place.address?.street_addr || place.address || '',
+      lat: place.geo?.latitude || place.latitude,
+      lng: place.geo?.longitude || place.longitude,
+      misc: place,
+    }));
+  } catch (error) {
+    console.error('Spoonacular error:', error);
+    return [];
+  }
+}
+
 export async function getRecommendations(context: Context): Promise<Place[]> {
-  const [googleResults, amazonResults] = await Promise.all([
+  const [googleResults, amazonResults, spoonacularResults] = await Promise.all([
     fetchGooglePlaces(context.homeLat, context.homeLng, context.radius, context.keyword),
     fetchAmazonPlaces(context.homeLat, context.homeLng, context.radius, context.keyword),
+    fetchSpoonacularPlaces(context.homeLat, context.homeLng, context.radius, context.keyword),
   ]);
 
-  const combined = [...googleResults, ...amazonResults];
+  const combined = [...googleResults, ...amazonResults, ...spoonacularResults];
   const deduped = deduplicatePlaces(combined);
   const scored = deduped.map(place => scorePlace(place, context));
   return scored.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
@@ -175,8 +238,20 @@ export async function getRecommendations(context: Context): Promise<Place[]> {
   };
 
   const recommendations = await getRecommendations(context);
-  console.log('Top Recommendations:');
-  recommendations.forEach(place => {
-    console.log(`- ${place.label} (${place.address}) — Score: ${place.score}, Distance: ${place.distance_km} km`);
-  });
+  // console.log('Top Recommendations (JSON):');
+  // console.log(JSON.stringify(
+  //   recommendations.map(place => ({
+  //     label: place.label,
+  //     address: place.address,
+  //     score: place.score,
+  //     distance_km: place.distance_km,
+  //     source: place.source === 'google' ? 'Google' : 'AWS'
+  //   })),
+  //   null,
+  //   2
+  // ));
+  console.log("Saved recommendations to results.json");
+
+  writeFileSync('app/utils/results.json', JSON.stringify(recommendations, null, 2));
+  console.log('Results saved to results.json');
 })();
