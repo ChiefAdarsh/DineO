@@ -14,7 +14,8 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useThemeColors } from "./constants/colors";
-import { signIn } from "./utils/cognito";
+
+import { useAuth } from "./context/AuthContext";
 
 export default function LoginScreen() {
   const colors = useThemeColors();
@@ -22,6 +23,7 @@ export default function LoginScreen() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const { signIn } = useAuth();
 
   const styles = useMemo(() => createStyles(colors), [colors]);
 
@@ -29,7 +31,6 @@ export default function LoginScreen() {
     setLoading(true);
     try {
       const token = await signIn(email, password);
-      console.log("JWT Token:", token); // Optional: Store in secure storage
       router.replace("/(tabs)"); // Navigate to main app screen
     } catch (error: any) {
       alert(`Login failed: ${error}`);
@@ -119,6 +120,10 @@ export default function LoginScreen() {
                 </TouchableOpacity>
               </View>
             </View>
+            {/* Temp for allergies */}
+            <TouchableOpacity onPress={() => router.push("/allergies")}>
+              <Text style={styles.signupLink}>Allergies</Text>
+            </TouchableOpacity>
           </View>
         </TouchableWithoutFeedback>
       </KeyboardAvoidingView>
